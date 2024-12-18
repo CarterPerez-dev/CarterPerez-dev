@@ -1,4 +1,4 @@
-![Cybersecurity Banner](https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/cybersecurity-banner.png)
+
 
 # Hi there, I'm Carter 👋
 
@@ -8,7 +8,6 @@
 
 ![GitHub Followers](https://img.shields.io/github/followers/CarterPerez-dev?label=Followers&style=for-the-badge)
 ![GitHub Stars](https://img.shields.io/github/stars/CarterPerez-dev?label=Stars&style=for-the-badge)
-![GitHub Repo Count](https://img.shields.io/github/repo-count/CarterPerez-dev?style=for-the-badge)
 ![Twitter Follow](https://img.shields.io/twitter/follow/CarterPerez_dev?label=Follow%20Me&style=for-the-badge)
 
 ---
