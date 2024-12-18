@@ -29,7 +29,6 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 
 ### [ProxyAuthRequired](https://github.com/CarterPerez-dev/ProxyAuthRequired) 🛠️
 
-![ProxyAuthRequired Banner](https://raw.githubusercontent.com/CarterPerez-dev/ProxyAuth-dev/main/assets/ProxyAuthRequired-banner.png)
 
 **ProxyAuthRequired** is a cutting-edge authentication proxy designed to secure web applications by enforcing authentication requirements. Whether you're safeguarding sensitive data or ensuring only authorized access, this tool provides a seamless and robust solution.
 
