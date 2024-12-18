@@ -20,7 +20,7 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 - 🌱 I’m learning advanced penetration testing techniques.
 - 👯 I’m looking to collaborate on open-source cybersecurity projects.
 - 💬 Ask me about **network security**, **ethical hacking**, and **secure coding**.
-- 📫 How to reach me: [Email](mailto:carterperez.dev@proxyauthrequired.com) | [LinkedIn](https://www.linkedin.com/in/carterperez)
+- 📫 How to reach me: [Email](mailto:carterperez.dev@proxyauthrequired.com) | [LinkedIn](www.linkedin.com/in/carter-perez-proxyauthrequired)
 - ⚡ Fun fact: I enjoy breaking and fixing things to understand how they work!
 
 ---
