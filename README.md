@@ -16,7 +16,7 @@
 
 Passionate about cybersecurity and dedicated to educating others on the importance of digital safety. With a strong foundation in ethical hacking and secure coding practices, I strive to create tools and resources that empower individuals and organizations to protect their digital assets.
 
-- 🔭 I’m currently working on **ProxyAuthRequired**, a robust authentication proxy tool.
+- 🔭 I’m currently working on **ProxyAuthRequired**, a cyber secuirty learning tool.
 - 🌱 I’m learning advanced penetration testing techniques.
 - 👯 I’m looking to collaborate on open-source cybersecurity projects.
 - 💬 Ask me about **network security**, **ethical hacking**, and **secure coding**.
@@ -30,7 +30,7 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 ### [ProxyAuthRequired](https://github.com/CarterPerez-dev/ProxyAuthRequired) 🛠️
 
 
-**ProxyAuthRequired** is a cutting-edge authentication proxy designed to secure web applications by enforcing authentication requirements. Whether you're safeguarding sensitive data or ensuring only authorized access, this tool provides a seamless and robust solution.
+**ProxyAuthRequired** is a new free to use and open source cybersecuirty learning tool releaisng jan 1st 2025.
 
 
 ![ProxyAuthRequired Stats](https://github-readme-stats.vercel.app/api/pin/?username=CarterPerez-dev&repo=ProxyAuthRequired&theme=dark&hide_border=true)
