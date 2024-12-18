@@ -96,4 +96,4 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 
 ---
 
-![Footer Image](https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/footer-cybersecurity.png)
+
