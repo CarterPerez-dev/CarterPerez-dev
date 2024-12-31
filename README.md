@@ -30,7 +30,7 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 ### [ProxyAuthRequired](https://github.com/CarterPerez-dev/ProxyAuthRequired) 🛠️
 
 
-**ProxyAuthRequired** is a new free to use and open source cybersecuirty learning tool releaisng jan 1st 2025.
+**ProxyAuthRequired** is a new free to use and open source cybersecuirty learning tool.
 
 
 ![ProxyAuthRequired Stats](https://github-readme-stats.vercel.app/api/pin/?username=CarterPerez-dev&repo=ProxyAuthRequired&theme=dark&hide_border=true)
