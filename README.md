@@ -128,7 +128,7 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 
 ## 🐍 Watch Me Eat My Contributions!
 
-> **Note:** This snake graphic requires a GitHub Actions workflow in your repository to generate and update the SVG.
+
 
 <p align="center"> 
   <img src="https://github.com/CarterPerez-dev/CarterPerez-dev/blob/output/github-contribution-grid-snake.svg" alt="snake gif" />
