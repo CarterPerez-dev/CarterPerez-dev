@@ -128,13 +128,27 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 
 ## 🐍 Watch Me Eat My Contributions!
 
+> **Note:** This snake graphic is automatically generated and updated via GitHub Actions.
 
 <p align="center">
-  <img 
-    src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/dist/github-snake.svg" 
-    alt="Snake Animation" 
-  />
+  <picture>
+    <!-- Dark Mode -->
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/dist/github-snake-dark.svg"
+    />
+    <!-- Light Mode -->
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/dist/github-snake.svg"
+    />
+    <img 
+      alt="github-snake" 
+      src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/dist/github-snake.svg" 
+    />
+  </picture>
 </p>
+
 
 ---
 
