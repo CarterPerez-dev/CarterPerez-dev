@@ -52,7 +52,7 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 
 ---
 
-## 🎉 A 100x Cooler Section: Extra Badges & Fun Stuff
+## 🎉 --DEV--
 
 <div align="center">
   
