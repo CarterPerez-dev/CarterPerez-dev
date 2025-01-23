@@ -66,7 +66,7 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 </a>
 
 <!-- Buy Me a Coffee -->
-<a href="https://www.buymeacoffee.com/carterperez-dev">
+<a href="https://www.buymeacoffee.com/carterperez">
   <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-%23FFDD00.svg?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
 </a>
 
