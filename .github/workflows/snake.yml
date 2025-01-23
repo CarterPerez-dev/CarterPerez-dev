@@ -13,11 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout Repository
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false   # Ensures a clean environment
+          # Ensure that the GITHUB_TOKEN is used for pushing
+          persist-credentials: true   # This allows the token to be used for git push
 
+      # Step 2: Generate Snake
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -27,17 +30,17 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
+      # Step 3: Commit & Push Snake Files
       - name: Commit & Push Snake Files
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Configure Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Add generated files to git
           git add dist/github-snake.svg dist/github-snake-dark.svg dist/ocean.gif
 
-          # Check if there are any changes
+          # Check if there are any changes to commit
           if ! git diff --cached --quiet; then
             git commit -m "chore: update snake graphics [skip ci]"
             git push origin HEAD:${GITHUB_REF}
