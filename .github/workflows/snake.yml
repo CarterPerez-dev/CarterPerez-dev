@@ -2,20 +2,21 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"    # runs every day at midnight
-  workflow_dispatch:
+    - cron: "0 0 * * *"    # Runs every day at midnight UTC
+  workflow_dispatch:        # Allows manual triggering
 
 permissions:
-  contents: write   # IMPORTANT: allows writing/committing to the repo
+  contents: write           # Grants permission to commit files
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false   # We'll provide our own token below
+          persist-credentials: false   # Ensures a clean environment
 
       - name: Generate Snake
         uses: Platane/snk@v3
@@ -26,24 +27,20 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Commit & push snake files
+      - name: Commit & Push Snake Files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Configure Git
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Stage any changed files in /dist (or anywhere you save your snake)
-          git add dist/*.svg dist/*.gif
+          # Add generated files to git
+          git add dist/github-snake.svg dist/github-snake-dark.svg dist/ocean.gif
 
-          # Commit only if there are changes
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git commit -m "chore: update snake files"
-            # Push using GitHub Actions token
-            git push
+          # Check if there are any changes
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update snake graphics [skip ci]"
+            git push origin HEAD:${GITHUB_REF}
           else
             echo "No changes to commit."
           fi
-        env:
-          # GitHub automatically provides this token with write permissions 
-          # because we set `permissions: contents: write` above
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
