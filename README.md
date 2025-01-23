@@ -128,7 +128,6 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 
 ## 🐍 Watch Me Eat My Contributions!
 
-> **Note:** This snake graphic is automatically generated and updated via GitHub Actions.
 
 <p align="center">
   <picture>
