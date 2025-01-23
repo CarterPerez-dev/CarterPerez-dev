@@ -165,7 +165,7 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 
 ### 📚 Teaching Resources
 
-https://proxyauthrequired.con
+https://proxyauthrequired.com
 
 ### 🎓 Learning Path
 Continuously expanding my knowledge to stay ahead in the ever-evolving field of cybersecurity:
