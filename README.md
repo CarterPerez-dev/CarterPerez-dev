@@ -9,17 +9,16 @@
 
 <!-- Fancy ASCII Banner -->
 <pre align="center">
- ██████╗ █████╗ ██████╗ ████████╗███████╗██████╗     ██████╗ ███████╗██████╗ ███████╗███████╗███████╗
-██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗    ██╔═══██╗██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝
-██║     ███████║██████╔╝   ██║   █████╗  ██████╔╝    ██║   ██║█████╗  ██████╔╝█████╗  ███████╗███████╗
-██║     ██╔══██║██╔══██╗   ██║   ██╔══╝  ██╔══██╗    ██║   ██║██╔══╝  ██╔══██╗██╔══╝  ╚════██║╚════██║
-╚██████╗██║  ██║██║  ██║   ██║   ███████╗██║  ██║    ╚██████╔╝███████╗██║  ██║███████╗███████║███████║
- ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝     ╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
+ ██████╗ █████╗ ██████╗ ████████╗███████╗██████╗     ╗██████╗ 
+██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗    ██╔══██╗
+██║     ███████║██████╔╝   ██║   █████╗  ██████╔╝    ██████╔╝
+██║     ██╔══██║██╔══██╗   ██║   ██╔══╝  ██╔══██╗    ██╔══██╗
+╚██████╗██║  ██║██║  ██║   ██║   ███████╗██║  ██║    ██║  ██║
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝
 </pre>
 
 <div align="center">
 
-[![Visitors](https://visitor-badge.glitch.me/badge?page_id=CarterPerez-dev.CarterPerez-dev&left_color=purple&right_color=blue)](https://github.com/CarterPerez-dev)
 ![GitHub Followers](https://img.shields.io/github/followers/CarterPerez-dev?label=Followers&style=for-the-badge)
 ![GitHub Stars](https://img.shields.io/github/stars/CarterPerez-dev?label=Stars&style=for-the-badge)
 ![Twitter Follow](https://img.shields.io/twitter/follow/CarterPerez_dev?label=Follow%20Me&style=for-the-badge)
@@ -128,11 +127,14 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 ---
 
 ## 🐍 Watch Me Eat My Contributions!
-```diff
+
+> **Note:** This snake graphic requires a GitHub Actions workflow in your repository to generate and update the SVG.
 
 <p align="center"> 
   <img src="https://github.com/CarterPerez-dev/CarterPerez-dev/blob/output/github-contribution-grid-snake.svg" alt="snake gif" />
 </p>
+
+---
 
 ## 🛠️ Technologies & Tools
 <p>
@@ -141,6 +143,8 @@ Passionate about cybersecurity and dedicated to educating others on the importan
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/-Kali%20Linux-339933?style=flat&logo=kali-linux&logoColor=white" alt="Kali Linux" />
 </p>
+
+---
 
 ## 🧠 Learning & Teaching
 
@@ -155,11 +159,13 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 4. **Incident Response**
 5. **Blockchain Security**
 
+---
+
 ## 🎯 Goals
 - **Expand Open Source Contributions:** Contribute to more cybersecurity projects and collaborate with like-minded developers.
 - **Develop Advanced Security Tools:** Create tools that address emerging security challenges.
 - **Educate the Community:** Continue creating resources and tutorials to help others learn about cybersecurity.
 
-> "Security is not a product, but a process." — Bruce Schneier
+> **"Security is not a product, but a process."** — *Bruce Schneier*
 
 <p align="center">Stay safe, stay curious, and keep hacking! 🚀</p>
