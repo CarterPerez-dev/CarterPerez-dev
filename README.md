@@ -131,7 +131,7 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 
 
 <p align="center"> 
-  <img src="https://github.com/CarterPerez-dev/CarterPerez-dev/blob/output/github-contribution-grid-snake.svg" alt="snake gif" />
+  <img src="[https://github.com/CarterPerez-dev/CarterPerez-dev/blob/output/github-contribution-grid-snake.svg](https://github.com/CarterPerez-dev/CarterPerez-dev/blob/main/.github/workflows/snake.yml)" alt="snake gif" />
 </p>
 
 ---
