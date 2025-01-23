@@ -129,9 +129,11 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 ## 🐍 Watch Me Eat My Contributions!
 
 
-
-<p align="center"> 
-  <img src="[https://github.com/CarterPerez-dev/CarterPerez-dev/blob/output/github-contribution-grid-snake.svg](https://github.com/CarterPerez-dev/CarterPerez-dev/blob/main/.github/workflows/snake.yml)" alt="snake gif" />
+<p align="center">
+  <img 
+    src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/dist/github-snake.svg" 
+    alt="Snake Animation" 
+  />
 </p>
 
 ---
