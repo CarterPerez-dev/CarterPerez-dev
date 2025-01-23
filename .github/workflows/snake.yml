@@ -1,19 +1,49 @@
-- uses: Platane/snk@v3
-  with:
-    # github user name to read the contribution graph from (**required**)
-    # using action context var `github.repository_owner` or specified user
-    github_user_name: ${{ github.repository_owner }}
+name: Generate Snake
 
-    # list of files to generate.
-    # one file per line. Each output can be customized with options as query string.
-    #
-    #  supported options:
-    #  - palette:     A preset of color, one of [github, github-dark, github-light]
-    #  - color_snake: Color of the snake
-    #  - color_dots:  Coma separated list of dots color.
-    #                 The first one is 0 contribution, then it goes from the low contribution to the highest.
-    #                 Exactly 5 colors are expected.
-    outputs: |
-      dist/github-snake.svg
-      dist/github-snake-dark.svg?palette=github-dark
-      dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+on:
+  schedule:
+    - cron: "0 0 * * *"    # runs every day at midnight
+  workflow_dispatch:
+
+permissions:
+  contents: write   # IMPORTANT: allows writing/committing to the repo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false   # We'll provide our own token below
+
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: Commit & push snake files
+        run: |
+          # Configure Git
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          # Stage any changed files in /dist (or anywhere you save your snake)
+          git add dist/*.svg dist/*.gif
+
+          # Commit only if there are changes
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git commit -m "chore: update snake files"
+            # Push using GitHub Actions token
+            git push
+          else
+            echo "No changes to commit."
+          fi
+        env:
+          # GitHub automatically provides this token with write permissions 
+          # because we set `permissions: contents: write` above
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
