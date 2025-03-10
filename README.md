@@ -11,15 +11,6 @@
                                             ░ 
 -->
 
-<div align="center">
-  
-```
-   ______           _             _______                    
-  / ____/___ ______/ /____  _____/ ____(_)___ ___  ___ _____
- / /   / __ `/ ___/ __/ _ \/ ___/ /_  / / __ `__ \/ _ `/ __ \
-/ /___/ /_/ / /  / /_/  __/ /  / __/ / / / / / / / /_/ / / / /
-\____/\__,_/_/   \__/\___/_/  /_/   /_/_/ /_/ /_/\__,_/_/ /_/ 
-```
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=0DFF00&center=true&vCenter=true&width=435&lines=Cybersecurity+Enthusiast;Ethical+Hacker+%7C+Educator;Network+Security+Expert;Digital+Fortress+Builder)
 
