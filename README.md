@@ -328,31 +328,6 @@ print(f"Current Focus: {status['current_project']} | Learning: {status['learning
     </tr>
   </table>
   
-  <h3 style="color:#00ff00;">SPECIALIZED CYBERSECURITY ARSENAL</h3>
-  
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/nmap.png" width="48" height="48" alt="Nmap"><br><span style="color:#00ffff;">Nmap</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/metasploit.png" width="48" height="48" alt="Metasploit"><br><span style="color:#00ffff;">Metasploit</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/burp.png" width="48" height="48" alt="Burp Suite"><br><span style="color:#00ffff;">Burp Suite</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/wireshark.png" width="48" height="48" alt="Wireshark"><br><span style="color:#00ffff;">Wireshark</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/ida.png" width="48" height="48" alt="IDA Pro"><br><span style="color:#00ffff;">IDA Pro</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/ghidra.png" width="48" height="48" alt="Ghidra"><br><span style="color:#00ffff;">Ghidra</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/cobalt.png" width="48" height="48" alt="Cobalt Strike"><br><span style="color:#00ffff;">Cobalt Strike</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/kali.png" width="48" height="48" alt="Kali Linux"><br><span style="color:#00ffff;">Kali Linux</span></td>
-    </tr>
-    <tr>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/splunk.png" width="48" height="48" alt="Splunk"><br><span style="color:#00ffff;">Splunk</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/volatility.png" width="48" height="48" alt="Volatility"><br><span style="color:#00ffff;">Volatility</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/shodan.png" width="48" height="48" alt="Shodan"><br><span style="color:#00ffff;">Shodan</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/osquery.png" width="48" height="48" alt="Osquery"><br><span style="color:#00ffff;">Osquery</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/hashcat.png" width="48" height="48" alt="Hashcat"><br><span style="color:#00ffff;">Hashcat</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/radare2.png" width="48" height="48" alt="Radare2"><br><span style="color:#00ffff;">Radare2</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/mimikatz.png" width="48" height="48" alt="Mimikatz"><br><span style="color:#00ffff;">Mimikatz</span></td>
-      <td width="12.5%" align="center"><img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/tools/cuckoo.png" width="48" height="48" alt="Cuckoo"><br><span style="color:#00ffff;">Cuckoo</span></td>
-    </tr>
-  </table>
-</div>
 
 <!-- ADVANCED PROJECT SHOWCASE WITH INTERACTIVE ELEMENTS -->
 <div align="center">
