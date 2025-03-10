@@ -35,7 +35,7 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/CarterPerez-dev/CarterPerez-dev/main/assets/terminal.gif" width="600" alt="Terminal Animation">
 
-```bash
+```ruby
 > neofetch --carter_perez
 
                    .~vVeZNgQBBBQQg9Ze1v~.                   carter@kali
