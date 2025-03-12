@@ -107,9 +107,9 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 </a>
 
 <!-- GitHub Streak Stats -->
-<a href="https://git.io/streak-stats">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=CarterPerez-dev&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="Carter's Streak Stats" />
-</a>
+
+[![GitHub Streak](https://streak-stats.demolab.com/?CarterPerez-dev=DenverCoder1)](https://git.io/streak-stats)
+
 
 </div>
 
