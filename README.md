@@ -108,7 +108,7 @@ Passionate about cybersecurity and dedicated to educating others on the importan
 
 <!-- GitHub Streak Stats -->
 
-[![GitHub Streak](https://streak-stats.demolab.com/?CarterPerez-dev=DenverCoder1)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=CarterPerez-dev)](https://git.io/streak-stats)
 
 
 </div>
