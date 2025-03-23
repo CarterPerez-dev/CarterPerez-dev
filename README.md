@@ -542,15 +542,43 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 ├── app.json
 ├── assets
 │   ├── adaptive-icon.png
+│   ├── default-avatar.png
 │   ├── favicon.png
+│   ├── fonts
+│   │   ├── FiraCode-Bold.ttf
+│   │   ├── FiraCode-Light.ttf
+│   │   ├── FiraCode-Medium.ttf
+│   │   ├── FiraCode-Regular.ttf
+│   │   ├── FiraCode-SemiBold.ttf
+│   │   ├── FiraCode-VariableFont_wght.ttf
+│   │   ├── Fira_Code
+│   │   │   └── static
+│   │   ├── OFL.txt
+│   │   ├── Orbitron
+│   │   │   ├── OFL.txt
+│   │   │   ├── README.txt
+│   │   │   └── static
+│   │   ├── Orbitron-Black.ttf
+│   │   ├── Orbitron-Bold.ttf
+│   │   ├── Orbitron-ExtraBold.ttf
+│   │   ├── Orbitron-Medium.ttf
+│   │   ├── Orbitron-Regular.ttf
+│   │   ├── Orbitron-SemiBold.ttf
+│   │   ├── Orbitron-VariableFont_wght.ttf
+│   │   ├── README.txt
+│   │   ├── ShareTechMono-Regular.ttf
+│   │   └── Share_Tech_Mono
+│   │       └── OFL.txt
 │   ├── icon.png
+│   ├── logo.png
 │   └── splash-icon.png
+├── babel.config.js
 ├── index.js
 ├── package-lock.json
 ├── package.json
+├── repomix-output.xml
 └── src
     ├── api
-    │   ├── LeaderboardService.js
     │   ├── ResourcesService.js
     │   ├── achievementService.js
     │   ├── analogyService.js
@@ -559,21 +587,30 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
     │   ├── authService.js
     │   ├── dailyStationService.js
     │   ├── grcService.js
+    │   ├── leaderboardService.js
     │   ├── newsletterService.js
     │   ├── passwordResetService.js
-    │   ├── pofileService.js
+    │   ├── profileService.js
     │   ├── scenarioService.js
     │   ├── shopService.js
     │   ├── supportService.js
     │   ├── testService.js
     │   └── xploitService.js
     ├── assets
+    │   ├── default-avatar.png
+    │   ├── fonts
+    │   └── logo.png
     ├── components
     │   ├── AchievementItem.js
+    │   ├── CustomHeaderComponent.js
     │   ├── FormattedQuestion.js
+    │   ├── GradientCard.js
+    │   ├── NotificationOverlay.js
+    │   ├── ResourceItemComponent.js
     │   ├── ResourceRandomModal.js
     │   ├── ResourcesCategoriesComponent.js
-    │   └── TestProgressComponent.js
+    │   ├── TestProgressComponent.js
+    │   └── ThemeSelector.js
     ├── constants
     │   ├── achievementConstants.js
     │   ├── resourcesConstants.js
@@ -581,13 +618,16 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
     │   │   └── shopConstants.js
     │   ├── supportConstants.js
     │   └── testConstants.js
+    ├── context
+    │   └── ThemeContext.js
     ├── hooks
     │   ├── useAchievements.js
     │   ├── useLeaderboard.js
     │   ├── useResources.js
     │   ├── useShop.js
     │   ├── useSupport.js
-    │   └── useTest.js
+    │   ├── useTest.js
+    │   └── useUserData.js
     ├── navigation
     │   ├── AppNavigator.js
     │   ├── AuthNavigator.js
@@ -596,7 +636,6 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
     ├── screens
     │   ├── HomeScreen.js
     │   ├── LeaderboardScreen.js
-    │   ├── ResourcesScreen.js
     │   ├── auth
     │   │   ├── CreateUsernameScreen.js
     │   │   ├── ForgotPasswordScreen.js
@@ -606,7 +645,8 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
     │   ├── profile
     │   │   ├── AchievementsScreen.js
     │   │   ├── ProfileScreen.js
-    │   │   └── SupportScreen.js
+    │   │   ├── SupportScreen.js
+    │   │   └── ThemeSettingsScreen.js
     │   ├── shop
     │   │   ├── ShopScreen.js
     │   │   └── components
@@ -635,15 +675,22 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
     │       ├── DailyStationScreen.js
     │       ├── GRCScreen.js
     │       ├── NewsletterScreen.js
+    │       ├── ResourcesScreen.js
     │       ├── ScenarioSphereScreen.js
-    │       └── XploitCraftScreen.js
+    │       ├── XploitCraftScreen.js
+    │       └── attackTypes.js
     ├── store
     │   ├── index.js
     │   └── slices
+    │       ├── achievementsSlice.js
+    │       ├── shopSlice.js
     │       └── userSlice.js
+    ├── styles
+    │   └── globalStyles.js
     └── utils
 
-21 directories, 84 files                       
+30 directories, 121 files
+                   
 ``` 
 ### Tests
 ```python
