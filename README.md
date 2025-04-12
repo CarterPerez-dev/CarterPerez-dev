@@ -203,43 +203,12 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 ###  Web App
 ```ruby
 .
-├── IOS.MD
-├── MD's
-│   ├── Aggregator.md
-│   ├── Efficiency-Prompt.md
-│   ├── Efficiency-results-(1).md
-│   ├── IOS.APP.MD
-│   ├── ISSUES-IMPROVEMENTS.md
-│   ├── MarketingPlan.md
-│   ├── Page-Design.ruby
-│   ├── Regexp.md
-│   ├── SEO&Sitemap.md
-│   ├── TestPageDesign.md
-│   ├── cloudfare.md
-│   ├── google.md
-│   ├── maketing-research.md
-│   ├── seo-tools.md
-│   ├── stripe_implementation.md
-│   └── 🌲TREEEEEEE🌲.md
 ├── Mongo-Inputs
 │   ├── Achievments.js
-│   ├── FakeUsers.js
 │   ├── ShopItems.js
-│   ├── TestUsers.js
-│   └── leaderboardusers.js
+│   └── TestUsers.js
 ├── README.MD
-├── Tests
-│   ├── DuplicateFix.txt
-│   ├── distractors-ExtraInstrcutions.md
-│   ├── explanations.md
-│   ├── fixtest.txt
-│   ├── formula.md
-│   ├── refineTests.md
-│   └── verifytests.txt
-├── Trees
-│   ├── Root.md
-│   ├── backend.md
-│   └── frontend.md
+├── REAL-ENV-VAR-TOP-SECRET.MD
 ├── apache
 │   ├── Dockerfile.apache
 │   ├── apache_server.conf
@@ -249,21 +218,24 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │   │   └── AI.py
 │   ├── Dockerfile.backend
 │   ├── app.py
+│   ├── celerybeat-schedule
 │   ├── helpers
 │   │   ├── analogy_stream_helper.py
 │   │   ├── async_tasks.py
 │   │   ├── celery_app.py
+│   │   ├── global_rate_limiter.py
 │   │   ├── grc_stream_helper.py
 │   │   ├── rate_limiter.py
 │   │   ├── scenario_helper.py
 │   │   └── xploitcraft_helper.py
+│   ├── middleware
+│   │   └── subscription_check.py
 │   ├── models
 │   │   ├── newsletter.py
 │   │   ├── password_reset.py
 │   │   └── test.py
 │   ├── mongodb
 │   │   └── database.py
-│   ├── repomix-output.txt
 │   ├── requirements.txt
 │   ├── routes
 │   │   ├── admin_newsletter_routes.py
@@ -275,10 +247,12 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │   │   ├── oauth_routes.py
 │   │   ├── password_reset_routes.py
 │   │   ├── scenario_routes.py
+│   │   ├── subscription_routes.py
 │   │   ├── support_routes.py
 │   │   ├── test_routes.py
 │   │   └── xploit_routes.py
 │   └── utils
+│       ├── apple_iap_verification.py
 │       └── email_sender.py
 ├── bandit.yaml
 ├── docker-compose.yml
@@ -293,13 +267,13 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │       ├── public
 │       │   ├── android-chrome-192x192.png
 │       │   ├── android-chrome-512x512.png
-│       │   ├── appLogo.png
 │       │   ├── apple-touch-icon.png
 │       │   ├── favicon-16x16.png
 │       │   ├── favicon-32x32.png
 │       │   ├── favicon.ico
 │       │   ├── images
 │       │   ├── index.html
+│       │   ├── ios.png
 │       │   ├── manifest.json
 │       │   ├── robots.txt
 │       │   ├── site.webmanifest
@@ -311,16 +285,15 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │       │       ├── xp25.png
 │       │       ├── xp50.png
 │       │       └── xp_mongo.js
-│       ├── repomix-output.txt
 │       └── src
 │           ├── App.js
-│           ├── App.test.js
 │           ├── components
 │           │   ├── ConfettiAnimation.js
 │           │   ├── Footer.js
 │           │   ├── FormattedQuestion.js
 │           │   ├── GlobalTestList.js
 │           │   ├── GlobalTestPage.js
+│           │   ├── PrivacyPolicyIOS.js
 │           │   ├── ProtectedRoute.js
 │           │   ├── SEOHelmet.js
 │           │   ├── Sidebar
@@ -330,10 +303,55 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │           │   ├── StructuredData.js
 │           │   ├── colorMapping.js
 │           │   ├── cracked
-│           │   │   ├── CrackedAdminDashboard.css
 │           │   │   ├── CrackedAdminDashboard.js
-│           │   │   ├── CrackedAdminLogin.css
-│           │   │   └── CrackedAdminLoginPage.js
+│           │   │   ├── CrackedAdminLoginPage.js
+│           │   │   ├── images
+│           │   │   │   ├── image1.jpg
+│           │   │   │   ├── image2.jpg
+│           │   │   │   ├── image3.jpg
+│           │   │   │   ├── image4.jpg
+│           │   │   │   ├── image5.jpg
+│           │   │   │   ├── image6.jpg
+│           │   │   │   ├── image7.jpg
+│           │   │   │   ├── image8.jpg
+│           │   │   │   └── image9.jpg
+│           │   │   ├── music
+│           │   │   │   └── elevator-music.mp3
+│           │   │   ├── styles
+│           │   │   │   ├── CrackedAdminDashboard.css
+│           │   │   │   ├── CrackedAdminLogin.css
+│           │   │   │   └── tabstyles
+│           │   │   │       ├── ActivityLogsTab.css
+│           │   │   │       ├── DailyTab.css
+│           │   │   │       ├── DbShellTab.css
+│           │   │   │       ├── HealthCheckTab.css
+│           │   │   │       ├── NewsletterTab.css
+│           │   │   │       ├── OverviewTab.css
+│           │   │   │       ├── PerformanceTab.css
+│           │   │   │       ├── RateLimitsTab.css
+│           │   │   │       ├── RequestLogsTab.css
+│           │   │   │       ├── RevenueTab.css
+│           │   │   │       ├── ServerMetricsTab.css
+│           │   │   │       ├── SupportTab.css
+│           │   │   │       ├── TestsTab.css
+│           │   │   │       ├── ToolsTab.css
+│           │   │   │       └── UsersTab.css
+│           │   │   └── tabs
+│           │   │       ├── ActivityLogsTab.js
+│           │   │       ├── DailyTab.js
+│           │   │       ├── DbShellTab.js
+│           │   │       ├── HealthChecksTab.js
+│           │   │       ├── NewsletterTab.js
+│           │   │       ├── OverviewTab.js
+│           │   │       ├── PerformanceTab.js
+│           │   │       ├── RateLimitsTab.js
+│           │   │       ├── RequestLogsTab.js
+│           │   │       ├── RevenueTab.js
+│           │   │       ├── ServerMetricsTab.js
+│           │   │       ├── SupportTab.js
+│           │   │       ├── TestsTab.js
+│           │   │       ├── ToolsTab.js
+│           │   │       └── UsersTab.js
 │           │   ├── footer.css
 │           │   ├── iconMapping.js
 │           │   ├── og-default.jpg
@@ -352,22 +370,23 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │           │   │   │   ├── GRC.js
 │           │   │   │   └── GRCbackground.jpg
 │           │   │   ├── Info
-│           │   │   │   ├── BlogPage.css
 │           │   │   │   ├── BlogPage.js
 │           │   │   │   ├── BlogPostPage.js
-│           │   │   │   ├── ContactPage.css
 │           │   │   │   ├── ContactPage.js
-│           │   │   │   ├── DemosPage.css
 │           │   │   │   ├── DemosPage.js
-│           │   │   │   ├── ExamsPage.css
 │           │   │   │   ├── ExamsPage.js
-│           │   │   │   ├── InfoNavbar.css
 │           │   │   │   ├── InfoNavbar.js
-│           │   │   │   ├── InfoPage.css
 │           │   │   │   ├── InfoPage.js
-│           │   │   │   ├── PublicLeaderboardPage.css
 │           │   │   │   ├── PublicLeaderboardPage.js
 │           │   │   │   ├── YouTubeEmbed.js
+│           │   │   │   ├── css
+│           │   │   │   │   ├── BlogPage.css
+│           │   │   │   │   ├── ContactPage.css
+│           │   │   │   │   ├── DemosPage.css
+│           │   │   │   │   ├── ExamsPage.css
+│           │   │   │   │   ├── InfoNavbar.css
+│           │   │   │   │   ├── InfoPage.css
+│           │   │   │   │   └── PublicLeaderboardPage.css
 │           │   │   │   ├── images
 │           │   │   │   │   ├── 1.webp
 │           │   │   │   │   ├── 10.webp
@@ -388,6 +407,7 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │           │   │   │   │   ├── achi.webp
 │           │   │   │   │   ├── analogy.webp
 │           │   │   │   │   ├── aplus.webp
+│           │   │   │   │   ├── apple.svg
 │           │   │   │   │   ├── awscloud.webp
 │           │   │   │   │   ├── bonus.webp
 │           │   │   │   │   ├── cissp.webp
@@ -416,6 +436,11 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │           │   │   │   │   ├── shop.webp
 │           │   │   │   │   ├── support.webp
 │           │   │   │   │   ├── test.webp
+│           │   │   │   │   ├── user1.webp
+│           │   │   │   │   ├── user2.webp
+│           │   │   │   │   ├── user3.webp
+│           │   │   │   │   ├── user6.webp
+│           │   │   │   │   ├── user8.webp
 │           │   │   │   │   ├── xboost.webp
 │           │   │   │   │   └── xploit.webp
 │           │   │   │   ├── navbarScrollUtils.js
@@ -438,105 +463,272 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │           │   │   │   ├── backround2.jpg
 │           │   │   │   ├── loading3.png
 │           │   │   │   └── logo5.png
-│           │   │   ├── aplus
-│           │   │   │   ├── APlusTestList.js
-│           │   │   │   └── APlusTestPage.js
-│           │   │   ├── aplus2
-│           │   │   │   ├── APlusCore2TestPage.js
-│           │   │   │   └── AplusCore2TestList.js
 │           │   │   ├── auth
-│           │   │   │   ├── AuthToast.css
-│           │   │   │   ├── CreateUsernameForm.css
 │           │   │   │   ├── CreateUsernameForm.js
-│           │   │   │   ├── ErrorDisplay.css
 │           │   │   │   ├── ErrorDisplay.js
-│           │   │   │   ├── ForgotPassword.css
 │           │   │   │   ├── ForgotPassword.js
-│           │   │   │   ├── Login.css
 │           │   │   │   ├── Login.js
 │           │   │   │   ├── OAuthSuccess.js
-│           │   │   │   ├── PasswordRequirements.css
 │           │   │   │   ├── PasswordRequirements.js
-│           │   │   │   ├── Register.css
 │           │   │   │   ├── Register.js
-│           │   │   │   ├── ResetPassword.css
-│           │   │   │   └── ResetPassword.js
-│           │   │   ├── awscloud
-│           │   │   │   ├── AWSCloudTestList.js
-│           │   │   │   └── AWSCloudTestPage.js
-│           │   │   ├── casp
-│           │   │   │   ├── CaspPlusTestList.js
-│           │   │   │   └── CaspPlusTestPage.js
-│           │   │   ├── cissp
-│           │   │   │   ├── CisspTestList.js
-│           │   │   │   └── CisspTestPage.js
-│           │   │   ├── cloudplus
-│           │   │   │   ├── CloudPlusTestList.js
-│           │   │   │   └── CloudPlusTestPage.js
-│           │   │   ├── cysa
-│           │   │   │   ├── CySAPlusTestList.js
-│           │   │   │   └── CySAPlusTestPage.js
-│           │   │   ├── dataplus
-│           │   │   │   ├── DataPlusTestList.js
-│           │   │   │   └── DataPlusTestPage.js
-│           │   │   ├── linuxplus
-│           │   │   │   ├── LinuxPlusTestList.js
-│           │   │   │   └── LinuxPlusTestPage.js
-│           │   │   ├── nplus
-│           │   │   │   ├── NPlusTestList.js
-│           │   │   │   └── NetworkPlusTestPage.js
-│           │   │   ├── penplus
-│           │   │   │   ├── PenPlusTestList.js
-│           │   │   │   └── PenPlusTestPage.js
-│           │   │   ├── secplus
-│           │   │   │   ├── SecurityPlusTestList.js
-│           │   │   │   └── SecurityPlusTestPage.js
-│           │   │   ├── serverplus
-│           │   │   │   ├── ServerPlusTestList.js
-│           │   │   │   └── ServerPlusTestPage.js
-│           │   │   └── store
-│           │   │       ├── AchievementPage.css
-│           │   │       ├── AchievementPage.js
-│           │   │       ├── AchievementToast.css
-│           │   │       ├── AchievementToast.js
-│           │   │       ├── DailyStation.css
-│           │   │       ├── DailyStationPage.js
-│           │   │       ├── LeaderboardPage.css
-│           │   │       ├── LeaderboardPage.js
-│           │   │       ├── ShopPage.css
-│           │   │       ├── ShopPage.js
-│           │   │       ├── StreakCalendar.js
-│           │   │       ├── SupportAskAnythingPage.css
-│           │   │       ├── SupportAskAnythingPage.js
-│           │   │       ├── UserProfile.css
-│           │   │       ├── UserProfile.js
-│           │   │       ├── ach.png
-│           │   │       ├── achbgs1.jpg
-│           │   │       ├── achievementsSlice.js
-│           │   │       ├── leader.jpg
-│           │   │       ├── shopSlice.js
-│           │   │       ├── shopbg.png
-│           │   │       ├── shopbg1.jpg
-│           │   │       ├── store.js
-│           │   │       ├── user.jpg
-│           │   │       └── userSlice.js
+│           │   │   │   ├── ResetPassword.js
+│           │   │   │   └── css
+│           │   │   │       ├── CreateUsernameForm.css
+│           │   │   │       ├── ErrorDisplay.css
+│           │   │   │       ├── ForgotPassword.css
+│           │   │   │       ├── Login.css
+│           │   │   │       ├── PasswordRequirements.css
+│           │   │   │       ├── Register.css
+│           │   │   │       └── ResetPassword.css
+│           │   │   ├── ios
+│           │   │   │   ├── AppleLegalPages.css
+│           │   │   │   ├── PrivacyPolicyIOS.js
+│           │   │   │   └── TermsOfServiceIOS.js
+│           │   │   ├── store
+│           │   │   │   ├── AchievementPage.js
+│           │   │   │   ├── AchievementToast.js
+│           │   │   │   ├── DailyStationPage.js
+│           │   │   │   ├── LeaderboardPage.js
+│           │   │   │   ├── ShopPage.js
+│           │   │   │   ├── SupportAskAnythingPage.js
+│           │   │   │   ├── UserProfile.js
+│           │   │   │   ├── css
+│           │   │   │   │   ├── AchievementPage.css
+│           │   │   │   │   ├── AchievementToast.css
+│           │   │   │   │   ├── DailyStation.css
+│           │   │   │   │   ├── LeaderboardPage.css
+│           │   │   │   │   ├── ShopPage.css
+│           │   │   │   │   ├── SupportAskAnythingPage.css
+│           │   │   │   │   └── UserProfile.css
+│           │   │   │   ├── slice
+│           │   │   │   │   ├── achievementsSlice.js
+│           │   │   │   │   ├── shopSlice.js
+│           │   │   │   │   └── userSlice.js
+│           │   │   │   └── store.js
+│           │   │   ├── subscription
+│           │   │   │   ├── StripeCheckout.js
+│           │   │   │   ├── SubscriptionCancel.js
+│           │   │   │   ├── SubscriptionPage.js
+│           │   │   │   ├── SubscriptionSuccess.js
+│           │   │   │   └── css
+│           │   │   │       ├── StripeCheckout.css
+│           │   │   │       ├── SubscriptionCancel.css
+│           │   │   │       ├── SubscriptionPage.css
+│           │   │   │       └── SubscriptionSuccess.css
+│           │   │   └── tests
+│           │   │       ├── aplus
+│           │   │       │   ├── APlusTestList.js
+│           │   │       │   └── APlusTestPage.js
+│           │   │       ├── aplus2
+│           │   │       │   ├── APlusCore2TestPage.js
+│           │   │       │   └── AplusCore2TestList.js
+│           │   │       ├── awscloud
+│           │   │       │   ├── AWSCloudTestList.js
+│           │   │       │   └── AWSCloudTestPage.js
+│           │   │       ├── casp
+│           │   │       │   ├── CaspPlusTestList.js
+│           │   │       │   └── CaspPlusTestPage.js
+│           │   │       ├── cissp
+│           │   │       │   ├── CisspTestList.js
+│           │   │       │   └── CisspTestPage.js
+│           │   │       ├── cloudplus
+│           │   │       │   ├── CloudPlusTestList.js
+│           │   │       │   └── CloudPlusTestPage.js
+│           │   │       ├── cysa
+│           │   │       │   ├── CySAPlusTestList.js
+│           │   │       │   └── CySAPlusTestPage.js
+│           │   │       ├── dataplus
+│           │   │       │   ├── DataPlusTestList.js
+│           │   │       │   └── DataPlusTestPage.js
+│           │   │       ├── linuxplus
+│           │   │       │   ├── LinuxPlusTestList.js
+│           │   │       │   └── LinuxPlusTestPage.js
+│           │   │       ├── nplus
+│           │   │       │   ├── NPlusTestList.js
+│           │   │       │   └── NetworkPlusTestPage.js
+│           │   │       ├── penplus
+│           │   │       │   ├── PenPlusTestList.js
+│           │   │       │   └── PenPlusTestPage.js
+│           │   │       ├── secplus
+│           │   │       │   ├── SecurityPlusTestList.js
+│           │   │       │   └── SecurityPlusTestPage.js
+│           │   │       └── serverplus
+│           │   │           ├── ServerPlusTestList.js
+│           │   │           └── ServerPlusTestPage.js
 │           │   └── test.css
 │           ├── global.css
-│           ├── index.css
 │           ├── index.js
-│           ├── reportWebVitals.js
-│           └── setupTests.js
-├── info.md
+│           └── reportWebVitals.js
 ├── nginx
+│   ├── logs
+│   │   ├── access.log
+│   │   └── error.log
 │   ├── nginx.conf
 │   └── sites-enabled
 │       └── reverse_proxy.conf
 ├── redis
 │   └── redis.conf
-└── repomix-output.txt
+└── routes.md
+
+61 directories, 306 file
 ``` 
 ### IOS APP
 ``` js
+.
+├── App.js
+├── app.json
+├── assets
+│   ├── adaptive-icon.png
+│   ├── apple-touch-icon.png
+│   ├── default-avatar.png
+│   ├── favicon.png
+│   ├── fonts
+│   │   ├── FiraCode-Regular.ttf
+│   │   ├── Fira_Code
+│   │   │   ├── OFL.txt
+│   │   │   └── static
+│   │   ├── Orbitron
+│   │   │   └── OFL.txt
+│   │   ├── Orbitron-Black.ttf
+│   │   ├── Orbitron-Bold.ttf
+│   │   ├── Orbitron-Medium.ttf
+│   │   ├── Orbitron-Regular.ttf
+│   │   ├── ShareTechMono-Regular.ttf
+│   │   └── Share_Tech_Mono
+│   │       └── OFL.txt
+│   ├── icon.png
+│   ├── logo.png
+│   └── splash-icon.png
+├── babel.config.js
+├── eas.json
+├── index.js
+├── package-lock.json
+├── package.json
+├── repomix-output.xml
+└── src
+    ├── api
+    │   ├── AppleSubscriptionService.js
+    │   ├── GoogleAuthService.js
+    │   ├── ResourcesService.js
+    │   ├── achievementService.js
+    │   ├── analogyService.js
+    │   ├── apiClient.js
+    │   ├── apiConfig.js
+    │   ├── authService.js
+    │   ├── contactService.js
+    │   ├── dailyStationService.js
+    │   ├── grcService.js
+    │   ├── leaderboardService.js
+    │   ├── newsletterService.js
+    │   ├── passwordResetService.js
+    │   ├── profileService.js
+    │   ├── scenarioService.js
+    │   ├── shopService.js
+    │   ├── supportService.js
+    │   ├── testService.js
+    │   └── xploitService.js
+    ├── components
+    │   ├── AchievementItem.js
+    │   ├── CustomHeaderComponent.js
+    │   ├── FormattedQuestion.js
+    │   ├── GlobalErrorHandler.js
+    │   ├── GradientCard.js
+    │   ├── NotificationOverlay.js
+    │   ├── ResourceItemComponent.js
+    │   ├── ResourceRandomModal.js
+    │   ├── ResourcesCategoriesComponent.js
+    │   ├── TestProgressComponent.js
+    │   └── ThemeSelector.js
+    ├── constants
+    │   ├── achievementConstants.js
+    │   ├── resourcesConstants.js
+    │   ├── shop
+    │   │   └── shopConstants.js
+    │   ├── supportConstants.js
+    │   └── testConstants.js
+    ├── context
+    │   ├── NetworkContext.js
+    │   └── ThemeContext.js
+    ├── hooks
+    │   ├── useAchievements.js
+    │   ├── useLeaderboard.js
+    │   ├── useResources.js
+    │   ├── useShop.js
+    │   ├── useSupport.js
+    │   ├── useTest.js
+    │   ├── useUserData.js
+    │   └── useXpProgress.js
+    ├── navigation
+    │   ├── AppNavigator.js
+    │   ├── AuthNavigator.js
+    │   ├── MainNavigator.js
+    │   └── TestNavigator.js
+    ├── screens
+    │   ├── HomeScreen.js
+    │   ├── LeaderboardScreen.js
+    │   ├── auth
+    │   │   ├── CreateUsernameScreen.js
+    │   │   ├── ForgotPasswordScreen.js
+    │   │   ├── LoginScreen.js
+    │   │   ├── PrivacyPolicyScreen.js
+    │   │   ├── RegisterScreen.js
+    │   │   └── TermsScreen.js
+    │   ├── profile
+    │   │   ├── AchievementsScreen.js
+    │   │   ├── ProfileScreen.js
+    │   │   ├── SupportScreen.js
+    │   │   └── ThemeSettingsScreen.js
+    │   ├── shop
+    │   │   ├── ShopScreen.js
+    │   │   └── components
+    │   │       ├── AvatarItem.js
+    │   │       ├── BoostItem.js
+    │   │       └── ColorItem.js
+    │   ├── subscription
+    │   │   └── SubscriptionScreenIOS.js
+    │   ├── tests
+    │   │   ├── TestListScreen.js
+    │   │   ├── TestScreen.js
+    │   │   └── categories
+    │   │       ├── APlus2Screen.js
+    │   │       ├── APlusScreen.js
+    │   │       ├── AWSCloudScreen.js
+    │   │       ├── CaspPlusScreen.js
+    │   │       ├── CisspScreen.js
+    │   │       ├── CloudPlusScreen.js
+    │   │       ├── CySAPlusScreen.js
+    │   │       ├── DataPlusScreen.js
+    │   │       ├── LinuxPlusScreen.js
+    │   │       ├── NetworkPlusScreen.js
+    │   │       ├── PenPlusScreen.js
+    │   │       ├── SecurityPlusScreen.js
+    │   │       └── ServerPlusScreen.js
+    │   └── tools
+    │       ├── AnalogyHubScreen.js
+    │       ├── DailyStationScreen.js
+    │       ├── GRCScreen.js
+    │       ├── NewsletterScreen.js
+    │       ├── ResourcesScreen.js
+    │       ├── ScenarioSphereScreen.js
+    │       ├── XploitCraftScreen.js
+    │       ├── attackTypes.js
+    │       ├── xploit.js
+    │       └── xploits.js
+    ├── store
+    │   ├── index.js
+    │   └── slices
+    │       ├── achievementsSlice.js
+    │       ├── networkSlice.js
+    │       ├── shopSlice.js
+    │       └── userSlice.js
+    ├── styles
+    │   └── globalStyles.js
+    └── utils
+        ├── networkUtils.js
+        └── responsive.js
+
+28 directories, 124 files
+
 ```
                    
 ``` 
