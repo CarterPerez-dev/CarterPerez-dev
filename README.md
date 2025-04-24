@@ -198,17 +198,29 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 
 
 # Lifeswork
-## Project as of 3/18/25
+## Project: last updated 4/20/25
 
-###  Web App
 ```ruby
-.
+Root.
+├── Audit
+│   └── bandit.yaml
+├── ENV
 ├── Mongo-Inputs
 │   ├── Achievments.js
 │   ├── ShopItems.js
 │   └── TestUsers.js
 ├── README.MD
-├── REAL-ENV-VAR-TOP-SECRET.MD
+├── Stack
+│   ├── API
+│   │   └── routes.md
+│   ├── Architecture
+│   │   ├── DB.md
+│   │   ├── Optimized3.md
+│   │   └── stack.flow.md
+│   └── Trees
+│       ├── Flask.md
+│       ├── React.md
+│       └── Root.md
 ├── apache
 │   ├── Dockerfile.apache
 │   ├── apache_server.conf
@@ -231,36 +243,61 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │   ├── middleware
 │   │   └── subscription_check.py
 │   ├── models
+│   │   ├── __init__.py
 │   │   ├── newsletter.py
 │   │   ├── password_reset.py
 │   │   └── test.py
 │   ├── mongodb
+│   │   ├── __init__.py
 │   │   └── database.py
 │   ├── requirements.txt
 │   ├── routes
-│   │   ├── admin_newsletter_routes.py
-│   │   ├── analogy_routes.py
-│   │   ├── contact_form.py
-│   │   ├── cracked_admin.py
-│   │   ├── grc_routes.py
-│   │   ├── newsletter_routes.py
-│   │   ├── oauth_routes.py
-│   │   ├── password_reset_routes.py
-│   │   ├── scenario_routes.py
-│   │   ├── subscription_routes.py
-│   │   ├── support_routes.py
-│   │   ├── test_routes.py
-│   │   └── xploit_routes.py
+│   │   ├── AI
+│   │   │   ├── analogy_routes.py
+│   │   │   ├── grc_routes.py
+│   │   │   ├── scenario_routes.py
+│   │   │   └── xploit_routes.py
+│   │   ├── SubscriptionAuth
+│   │   │   ├── oauth_routes.py
+│   │   │   ├── password_reset_routes.py
+│   │   │   ├── subscription_routes.py
+│   │   │   └── utils.py
+│   │   ├── admin
+│   │   │   ├── admin_newsletter_routes.py
+│   │   │   └── cracked_admin.py
+│   │   ├── games
+│   │   │   ├── cipher_routes.py
+│   │   │   ├── incident_routes.py
+│   │   │   ├── phishing_routes.py
+│   │   │   └── threat_hunter_routes.py
+│   │   ├── info
+│   │   │   └── contact_form.py
+│   │   └── main
+│   │       ├── __init__.py
+│   │       ├── achievements_routes.py
+│   │       ├── blueprint.py
+│   │       ├── cancel_routes.py
+│   │       ├── daily_question_routes.py
+│   │       ├── leaderboard_routes.py
+│   │       ├── newsletter_routes.py
+│   │       ├── shop_routes.py
+│   │       ├── support_routes.py
+│   │       ├── test_attempt_routes.py
+│   │       ├── test_routes.py
+│   │       ├── user_routes.py
+│   │       └── utils.py
 │   └── utils
+│       ├── __init__.py
 │       ├── apple_iap_verification.py
-│       └── email_sender.py
-├── bandit.yaml
+│       ├── email_sender.py
+│       └── utils.py
 ├── docker-compose.yml
 ├── frontend
 │   └── my-react-app
 │       ├── Dockerfile.audit
 │       ├── Dockerfile.dev
 │       ├── Dockerfile.frontend
+│       ├── craco.config.js
 │       ├── eslint.config.mjs
 │       ├── package-lock.json
 │       ├── package.json
@@ -277,14 +314,7 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │       │   ├── manifest.json
 │       │   ├── robots.txt
 │       │   ├── site.webmanifest
-│       │   ├── sitemap.xml
-│       │   └── xp
-│       │       ├── xp10.png
-│       │       ├── xp100.png
-│       │       ├── xp200.png
-│       │       ├── xp25.png
-│       │       ├── xp50.png
-│       │       └── xp_mongo.js
+│       │   └── sitemap.xml
 │       └── src
 │           ├── App.js
 │           ├── components
@@ -295,12 +325,17 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │           │   ├── GlobalTestPage.js
 │           │   ├── PrivacyPolicyIOS.js
 │           │   ├── ProtectedRoute.js
+│           │   ├── QuestionLimitBanner.css
+│           │   ├── QuestionLimitBanner.js
 │           │   ├── SEOHelmet.js
 │           │   ├── Sidebar
 │           │   │   ├── Sidebar.css
 │           │   │   ├── Sidebar.js
 │           │   │   └── sidebarlogo.png
 │           │   ├── StructuredData.js
+│           │   ├── SubscriptionErrorHandler.js
+│           │   ├── UpgradePrompt.css
+│           │   ├── UpgradePrompt.js
 │           │   ├── colorMapping.js
 │           │   ├── cracked
 │           │   │   ├── CrackedAdminDashboard.js
@@ -456,6 +491,9 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │           │   │   │   ├── ScenarioSphere.js
 │           │   │   │   ├── attacks.js
 │           │   │   │   └── backround5.jpg
+│           │   │   ├── StatsPage
+│           │   │   │   ├── StatsPage.css
+│           │   │   │   └── StatsPage.js
 │           │   │   ├── TermsOfService.js
 │           │   │   ├── XploitcraftPage
 │           │   │   │   ├── App.css
@@ -480,6 +518,48 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │           │   │   │       ├── PasswordRequirements.css
 │           │   │   │       ├── Register.css
 │           │   │   │       └── ResetPassword.css
+│           │   │   ├── games
+│           │   │   │   ├── CipherChallenge
+│           │   │   │   │   ├── CipherChallenge.css
+│           │   │   │   │   ├── CipherChallenge.js
+│           │   │   │   │   ├── CipherDisplay.css
+│           │   │   │   │   ├── CipherDisplay.js
+│           │   │   │   │   ├── CipherHints.css
+│           │   │   │   │   ├── CipherHints.js
+│           │   │   │   │   ├── CipherInfoModal.css
+│           │   │   │   │   ├── CipherInfoModal.js
+│           │   │   │   │   ├── CipherInput.css
+│           │   │   │   │   ├── CipherInput.js
+│           │   │   │   │   ├── CipherTools.css
+│           │   │   │   │   ├── CipherTools.js
+│           │   │   │   │   ├── CongratulationsModal.css
+│           │   │   │   │   ├── CongratulationsModal.js
+│           │   │   │   │   ├── LevelSelector.css
+│           │   │   │   │   └── LevelSelector.js
+│           │   │   │   ├── IncidentResponder
+│           │   │   │   │   ├── DifficultySelector.js
+│           │   │   │   │   ├── IncidentResponder.css
+│           │   │   │   │   ├── IncidentResponder.js
+│           │   │   │   │   ├── ScenarioIntro.js
+│           │   │   │   │   ├── ScenarioResults.js
+│           │   │   │   │   └── ScenarioStage.js
+│           │   │   │   ├── PhishingPhrenzy
+│           │   │   │   │   ├── GameOverModal.css
+│           │   │   │   │   ├── GameOverModal.js
+│           │   │   │   │   ├── PhishingCard.css
+│           │   │   │   │   ├── PhishingCard.js
+│           │   │   │   │   ├── PhishingPhrenzy.css
+│           │   │   │   │   └── PhishingPhrenzy.js
+│           │   │   │   └── ThreatHunter
+│           │   │   │       ├── AnalysisTools.js
+│           │   │   │       ├── GameInstructions.css
+│           │   │   │       ├── GameInstructions.js
+│           │   │   │       ├── LogViewer.js
+│           │   │   │       ├── ScenarioSelector.js
+│           │   │   │       ├── ThreatControls.js
+│           │   │   │       ├── ThreatHunter.css
+│           │   │   │       ├── ThreatHunter.js
+│           │   │   │       └── ThreatResultsModal.js
 │           │   │   ├── ios
 │           │   │   │   ├── AppleLegalPages.css
 │           │   │   │   ├── PrivacyPolicyIOS.js
@@ -502,7 +582,11 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │           │   │   │   │   └── UserProfile.css
 │           │   │   │   ├── slice
 │           │   │   │   │   ├── achievementsSlice.js
+│           │   │   │   │   ├── cipherChallengeSlice.js
+│           │   │   │   │   ├── incidentResponderSlice.js
+│           │   │   │   │   ├── phishingPhrenzySlice.js
 │           │   │   │   │   ├── shopSlice.js
+│           │   │   │   │   ├── threatHunterSlice.js
 │           │   │   │   │   └── userSlice.js
 │           │   │   │   └── store.js
 │           │   │   ├── subscription
@@ -566,316 +650,6 @@ Continuously expanding my knowledge to stay ahead in the ever-evolving field of 
 │   ├── nginx.conf
 │   └── sites-enabled
 │       └── reverse_proxy.conf
-├── redis
-│   └── redis.conf
-└── routes.md
-
-61 directories, 306 file
-``` 
-### IOS APP
-``` js
-.
-├── App.js
-├── app.json
-├── assets
-│   ├── adaptive-icon.png
-│   ├── apple-touch-icon.png
-│   ├── default-avatar.png
-│   ├── favicon.png
-│   ├── fonts
-│   │   ├── FiraCode-Regular.ttf
-│   │   ├── Fira_Code
-│   │   │   ├── OFL.txt
-│   │   │   └── static
-│   │   ├── Orbitron
-│   │   │   └── OFL.txt
-│   │   ├── Orbitron-Black.ttf
-│   │   ├── Orbitron-Bold.ttf
-│   │   ├── Orbitron-Medium.ttf
-│   │   ├── Orbitron-Regular.ttf
-│   │   ├── ShareTechMono-Regular.ttf
-│   │   └── Share_Tech_Mono
-│   │       └── OFL.txt
-│   ├── icon.png
-│   ├── logo.png
-│   └── splash-icon.png
-├── babel.config.js
-├── eas.json
-├── index.js
-├── package-lock.json
-├── package.json
-├── repomix-output.xml
-└── src
-    ├── api
-    │   ├── AppleSubscriptionService.js
-    │   ├── GoogleAuthService.js
-    │   ├── ResourcesService.js
-    │   ├── achievementService.js
-    │   ├── analogyService.js
-    │   ├── apiClient.js
-    │   ├── apiConfig.js
-    │   ├── authService.js
-    │   ├── contactService.js
-    │   ├── dailyStationService.js
-    │   ├── grcService.js
-    │   ├── leaderboardService.js
-    │   ├── newsletterService.js
-    │   ├── passwordResetService.js
-    │   ├── profileService.js
-    │   ├── scenarioService.js
-    │   ├── shopService.js
-    │   ├── supportService.js
-    │   ├── testService.js
-    │   └── xploitService.js
-    ├── components
-    │   ├── AchievementItem.js
-    │   ├── CustomHeaderComponent.js
-    │   ├── FormattedQuestion.js
-    │   ├── GlobalErrorHandler.js
-    │   ├── GradientCard.js
-    │   ├── NotificationOverlay.js
-    │   ├── ResourceItemComponent.js
-    │   ├── ResourceRandomModal.js
-    │   ├── ResourcesCategoriesComponent.js
-    │   ├── TestProgressComponent.js
-    │   └── ThemeSelector.js
-    ├── constants
-    │   ├── achievementConstants.js
-    │   ├── resourcesConstants.js
-    │   ├── shop
-    │   │   └── shopConstants.js
-    │   ├── supportConstants.js
-    │   └── testConstants.js
-    ├── context
-    │   ├── NetworkContext.js
-    │   └── ThemeContext.js
-    ├── hooks
-    │   ├── useAchievements.js
-    │   ├── useLeaderboard.js
-    │   ├── useResources.js
-    │   ├── useShop.js
-    │   ├── useSupport.js
-    │   ├── useTest.js
-    │   ├── useUserData.js
-    │   └── useXpProgress.js
-    ├── navigation
-    │   ├── AppNavigator.js
-    │   ├── AuthNavigator.js
-    │   ├── MainNavigator.js
-    │   └── TestNavigator.js
-    ├── screens
-    │   ├── HomeScreen.js
-    │   ├── LeaderboardScreen.js
-    │   ├── auth
-    │   │   ├── CreateUsernameScreen.js
-    │   │   ├── ForgotPasswordScreen.js
-    │   │   ├── LoginScreen.js
-    │   │   ├── PrivacyPolicyScreen.js
-    │   │   ├── RegisterScreen.js
-    │   │   └── TermsScreen.js
-    │   ├── profile
-    │   │   ├── AchievementsScreen.js
-    │   │   ├── ProfileScreen.js
-    │   │   ├── SupportScreen.js
-    │   │   └── ThemeSettingsScreen.js
-    │   ├── shop
-    │   │   ├── ShopScreen.js
-    │   │   └── components
-    │   │       ├── AvatarItem.js
-    │   │       ├── BoostItem.js
-    │   │       └── ColorItem.js
-    │   ├── subscription
-    │   │   └── SubscriptionScreenIOS.js
-    │   ├── tests
-    │   │   ├── TestListScreen.js
-    │   │   ├── TestScreen.js
-    │   │   └── categories
-    │   │       ├── APlus2Screen.js
-    │   │       ├── APlusScreen.js
-    │   │       ├── AWSCloudScreen.js
-    │   │       ├── CaspPlusScreen.js
-    │   │       ├── CisspScreen.js
-    │   │       ├── CloudPlusScreen.js
-    │   │       ├── CySAPlusScreen.js
-    │   │       ├── DataPlusScreen.js
-    │   │       ├── LinuxPlusScreen.js
-    │   │       ├── NetworkPlusScreen.js
-    │   │       ├── PenPlusScreen.js
-    │   │       ├── SecurityPlusScreen.js
-    │   │       └── ServerPlusScreen.js
-    │   └── tools
-    │       ├── AnalogyHubScreen.js
-    │       ├── DailyStationScreen.js
-    │       ├── GRCScreen.js
-    │       ├── NewsletterScreen.js
-    │       ├── ResourcesScreen.js
-    │       ├── ScenarioSphereScreen.js
-    │       ├── XploitCraftScreen.js
-    │       ├── attackTypes.js
-    │       ├── xploit.js
-    │       └── xploits.js
-    ├── store
-    │   ├── index.js
-    │   └── slices
-    │       ├── achievementsSlice.js
-    │       ├── networkSlice.js
-    │       ├── shopSlice.js
-    │       └── userSlice.js
-    ├── styles
-    │   └── globalStyles.js
-    └── utils
-        ├── networkUtils.js
-        └── responsive.js
-
-28 directories, 124 files
-
-```
-                   
-``` 
-### Tests
-```python
-    ├── A+ Core 1
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.js
-    │   └── X0.ruby
-    ├── A+ Core 2
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── AWS-CLOUD
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── CASP+
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── CISSP
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── Cloud+
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── CySa+
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── Data+
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── DuplicateFix.txt
-    ├── Linux+
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── Network+
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── PenTest+
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── Security+
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
-    ├── Server+
-    │   ├── 1.ruby
-    │   ├── 2.ruby
-    │   ├── 3.ruby
-    │   ├── 4.ruby
-    │   ├── 5.ruby
-    │   ├── 6.ruby
-    │   ├── 7.ruby
-    │   ├── 8.ruby
-    │   ├── 9.ruby
-    │   └── X0.ruby
+└── redis
+    └── redis.conf
 ```
