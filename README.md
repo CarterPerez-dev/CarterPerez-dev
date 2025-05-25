@@ -21,7 +21,7 @@
 
 ### Development Environments:
 ![Vim](https://img.shields.io/badge/Vim-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) 
-!Kali](https://img.shields.io/badge/Kali-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Kali](https://img.shields.io/badge/Kali-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![Github](https://img.shields.io/badge/Github-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
 <!-- Social Links -->
