@@ -46,7 +46,7 @@ I am a **Cybersecurity** student, currently halfway through my degree, I am expa
 - 📫 Reach out to me at: <a href="carterperez@certgames.com">leonardobravoricapa@gmail.com</a>
 - 🤠 [Portfolio](carterperez-dev.com)
 <br>
-<img align="right" width=200px alt="Unicorn" src="https://media.tenor.com/XP4tw9P1yFoAAAAM/dedsec.gif"/>
+<img align="center" width=200px alt="Unicorn" src="https://media.tenor.com/XP4tw9P1yFoAAAAM/dedsec.gif"/>
 
 <!-- Profile Trophies -->
 <div align="center">
