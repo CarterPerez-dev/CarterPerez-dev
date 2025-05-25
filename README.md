@@ -13,10 +13,10 @@
 <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=3000&pause=200&color=b30000&width=435&lines=Hello%2C+it's+Carter+Perez;Full-Stack+Dev" alt="Full-Stack Developer"/>
 </a>
-
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30"> ***Skills***
+
+<img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30"> ***Skills**
+
 
 [![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,kali,debian,arch,redhat,vim,bash,regex,pytorch,bsd,postman,perl,raspberrypi,rails,graphql,selenium,flask,django,fastapi,rocket,actix,nodejs,express,nestjs,spring,react,babel,nextjs,vue,vite,angular,jquery,nuxtjs,laravel,svelte,nextjs,ansible,redux,npm,reactivex,solidjs,tailwind,terraform,threejs,ts,vitest,webpack,windicss,html,rust,py,js,css,java,kotlin,ruby,c,cs,cpp,go,php,mongodb,mysql,postgres,supabase,dynamodb,firebase,sqlite,redis,git,github,docker,nginx,kubernetes,githubactions,aws,blender,apple,cloudflare,gcp,gmail,vercel,notion,gitlab,devto,androidstudio,bitbucket,bootstrap,figma)](https://skillicons.dev)
 
