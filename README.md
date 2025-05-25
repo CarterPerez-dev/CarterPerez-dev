@@ -21,10 +21,9 @@
 
 ### Development Environments:
 ![Vim](https://img.shields.io/badge/Vim-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) 
+!Kali](https://img.shields.io/badge/Kali-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Github](https://img.shields.io/badge/Github-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
-<br>
-<br>
---
 <!-- Social Links -->
 <div align="center">
   <a href="mailto:carterperez@certgames.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=black" /></a>
