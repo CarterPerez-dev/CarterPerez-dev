@@ -76,10 +76,6 @@ I am a **Cybersecurity** student, currently halfway through my degree, I am expa
 </p>
 <br>
 
-<table>
-  <tr>
-    <td valign="top">
-<pre><code>
 
        .                       
        |`.                     
@@ -161,38 +157,4 @@ I am a **Cybersecurity** student, currently halfway through my degree, I am expa
        $b   d$       $$$$$     
        :$bgd$;        T$P'     
         T$$$P                  
-         '"'
 
-</code></pre>
-    </td>
-    <td valign="top">
-<pre><code>
-[NewPersonsName]@[Handle] ---------------------------------------
-OS: ................... [Their OS, e.g., macOS, Windows 11]
-Uptime: ............... [Their age or a fun fact]
-Host: ................. [Their Company or School]
-Kernel: .............. [Their Role or "Human"]
-IDE: ................. [Their Favorite IDEs/Tools]
-
-Languages.Programming: ..... [Their Programming Languages]
-Languages.Computer: ........ [Other tech skills, e.g., Git, Docker]
-Languages.Real: ............ [Spoken Languages]
-
-Hobbies.Software: ......... [Their Software Hobbies]
-Hobbies.Hardware: ......... [Their Hardware Hobbies]
-
-- Contact -----------------------------------------------------
-Email.Personal: .......... [Their Personal Email]
-Email.Work: ............. [Their Work Email, if applicable]
-LinkedIn: ............... [Their LinkedIn Profile Name/URL]
-Discord: ................ [Their Discord Handle]
-Website: ................ [Their Personal Website]
-
-- GitHub Stats ------------------------------------------------
-Repos: .... [Num] {Contributed: [Num]} | Stars: .......... [Num]
-Commits: ................ [Num] | Followers: ....... [Num]
-Lines of Code on GitHub:.. [Approx. Num, or a fun stat]
-</code></pre>
-    </td>
-  </tr>
-</table>
