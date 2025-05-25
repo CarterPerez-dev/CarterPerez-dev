@@ -1,20 +1,16 @@
-<!-- 
-This README.md creates a quantum-themed GitHub profile that exists in multiple states simultaneously, featuring impossible geometry, time-based evolution, and interactive SVG elements that challenge perception. The profile leverages GitHub's rendering engine to create a living, breathing digital artifact that changes based on viewer interaction, time of day, and cosmic alignment, representing the observer effect in quantum mechanics.
--->
 
 <div align="center">
 
-<!-- Quantum State Indicator - I'm using a complex SVG that creates an impossible rotating tesseract -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF41&center=true&vCenter=true&random=true&width=800&lines=QUANTUM+STATE%3A+SUPERPOSITION;OBSERVER+DETECTED...;COLLAPSING+WAVE+FUNCTION...;REALITY+FORK+IN+PROGRESS...;ERROR%3A+MULTIPLE+TIMELINES+DETECTED;ATTEMPTING+DIMENSIONAL+MERGE...;%5BWARNING%5D+PARADOX+IMMINENT" alt="Quantum State" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF41&center=true&vCenter=true&random=true&width=800&lines=Full+Stack%3A+Dev;Rust+Python...;Javascript+Typescript+React...;REALITY+FORK+IN+PROGRESS...;ERROR%3A+Segmentation+Fault+DETECTED;ATTEMPTING+Core+Dump...;%5BWARNING%5D+PARADOX+IMMINENT" alt="Full stack Dev" />
 
 <!-- The Impossible Cube - I'm creating this as an optical illusion that shouldn't exist -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Carter%20Perez&descAlignY=51&descAlign=62">
   <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Carter%20Perez&descAlignY=51&descAlign=62">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Carter%20Perez&descAlignY=51&descAlign=62" alt="Quantum Header">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Carter%20Perez&descAlignY=51&descAlign=62" alt="Full stack Dev">
 </picture>
 
-<!-- Reality Glitch Effect - Here I'm simulating a glitch in the matrix -->
 <details>
 <summary>⚠️ <b>CLICK TO OBSERVE</b> ⚠️</summary>
 <br>
