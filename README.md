@@ -13,15 +13,15 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120§ion=header" alt="header"/>
 
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=D9BED1&width=435&lines=Hello%2C+it's+Daria+Stanilevici;Business+Analyst" alt="Business Analyst"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=D9BED1&width=435&lines=Hello%2C+it's+Carter+Perez;Full+Stack" alt="Full-Stack Developer"/>
 </a>
 
 
 ### Main skills
-[![My Skills](https://skillicons.dev/icons?i=py,regex,github,git,mongodb,mysql,c++,java,spring,js,nodejs,react,express,jest,python,flask,ruby,rust,django,css,bootstrap,typescript,solid.js,swift,rocket,postgress,axum)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,regex,github,git,mongodb,mysql,c++,java,spring,javascipt,nodejs,react,express,jest,python,flask,ruby,rust,django,css,bootstrap,typescript,solid.js,swift,rocket,postgress,axum)](https://skillicons.dev)
 
 ### Studying
-[![Learning](https://skillicons.dev/icons?i=java,hyper,c#)](https://skillicons.dev)
+[![Learning](https://skillicons.dev/icons?i=java,assembly,c#)](https://skillicons.dev)
 
 <!--
      Fast links to my socials!
