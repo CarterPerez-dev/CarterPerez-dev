@@ -19,7 +19,7 @@
 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30">  ***Skills***
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,kali,debian,redhat,vim,bash,regex,pytorch,bsd,postman,perl,raspberrypi,rails,graphql,selenium,flask,django,fastapi,rocket,actix,nodejs,express,nestjs,spring,react,babel,nextjs,vue,vite,Angular,jQuery,nuxtjs,Laravel,Svelte,ansible,redux,npm,reactivex,solidjs,tailwind,terraform,threejs,ts,vitest,webpack,windicss,html,rust,py,js,css,java,kotlin,ruby,c,cs,cpp,go,php,mongodb,mysql,postgres,supabase,dynamodb,firebase,sqlite,redis,git,github,docker,nginx,kubernetes,githubactions,aws,blender,apple,cloudfare,gcp,gmail,vercel)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,kali,debian,redhat,vim,bash,regex,pytorch,bsd,postman,perl,raspberrypi,rails,graphql,selenium,flask,django,fastapi,rocket,actix,nodejs,express,nestjs,spring,react,babel,nextjs,vue,vite,angular,jquery,nuxtjs,laravel,svelte,ansible,redux,npm,reactivex,solidjs,tailwind,terraform,threejs,ts,vitest,webpack,windicss,html,rust,py,js,css,java,kotlin,ruby,c,cs,cpp,go,php,mongodb,mysql,postgres,supabase,dynamodb,firebase,sqlite,redis,git,github,docker,nginx,kubernetes,githubactions,aws,blender,apple,cloudflare,gcp,gmail,vercel)](https://skillicons.dev)
 
 ### Development Environments:
 ![Vim](https://img.shields.io/badge/Vim-b30000.svg?style=for-the-badge&logo=intellij-idea&logoColor=red) 
