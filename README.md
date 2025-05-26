@@ -42,7 +42,7 @@ I am a **Cybersecurity** student, currently halfway through my degree, I am expa
   - *Haskell*
 - 🚀 I’m ambitious with new things I do..
 - ✔ Feel free to ask me anything! I’m motivated to help others.
-- 📫 Reach out to me at: <a href="carterperez@certgames.com">leonardobravoricapa@gmail.com</a>
+- 📫 Reach out to me at: <a href="carterperez@certgames.com">CarterPerez@certgames.com</a>
 - 🤠 [Portfolio](carterperez-dev.com)
 <br>
 <img align="center" width=200px alt="Unicorn" src="https://media.tenor.com/XP4tw9P1yFoAAAAM/dedsec.gif"/>
