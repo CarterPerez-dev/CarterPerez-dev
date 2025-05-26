@@ -36,7 +36,7 @@
 
 <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 35> ***About me***
 
-I am a **Cybersecurity** student, currently halfway through my degree, I am expanding my knowledge in both back-end and front-end development. I solo developed [CertGames](Certgames.com). Im currently working on two very ambitious projects: [Angela-CLI](https://github.com/CarterPerez-dev/angela-cli) - A command line AGI (aspiring AGI...😂). I'm also working on [Angelax](https://github.com/CarterPerez-dev/Angela) - The worlds fastest backend framework, built with rust.
+I am a **Cybersecurity** student, currently halfway through my degree, I am expanding my knowledge in both back-end and front-end development. I solo developed [CertGames](Certgames.com) and am currently working on two very ambitious projects: [Angela-CLI](https://github.com/CarterPerez-dev/angela-cli) - A command line AGI (aspiring AGI...😂). I'm also working on [Angelax](https://github.com/CarterPerez-dev/Angela) - The worlds fastest backend framework, built with rust.
 - 📚 I’m currently learning ...
   - *Kubernetes*
   - *Haskell*
