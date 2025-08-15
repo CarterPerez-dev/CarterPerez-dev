@@ -59,14 +59,14 @@
 
 <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 35> ***About me***
 
-I am a **Cybersecurity** student, currently halfway through my degree, I am expanding my knowledge in both back-end and front-end development. I solo developed [CertGames](Certgames.com) and am currently working on two very ambitious projects: [Angela-CLI](https://github.com/CarterPerez-dev/angela-cli) - A command line AGI (aspiring AGI...😂). I'm also working on [Angelax](https://github.com/CarterPerez-dev/Angela) - The worlds fastest backend framework, built with rust.
-- 📚 I’m currently learning ...
+ I am expanding my knowledge in both back-end and front-end development. I solo developed [CertGames](Certgames.com) and am currently working on expanding Certgames and as a side project I'm working on building the fastest backend framework built with rust:  [Angelax](https://github.com/CarterPerez-dev/Angela)
+- 🧙‍♂️ I’m currently learning ...
   - *Kubernetes*
-  - *Haskell*
-- 🚀 I’m ambitious with new things I do..
-- ✔ Feel free to ask me anything! I’m motivated to help others.
-- 📫 Reach out to me at: <a href="carterperez@certgames.com">CarterPerez@certgames.com</a>
-- 🤠 [Portfolio](carterperez-dev.com)
+  - *SolidJS*
+- 👻 I’m ambitious with new things I do..
+- 🫡 Feel free to ask me anything! I’m motivated to help others.
+- 😎 Reach out to me at: <a href="carterperez@certgames.com">Carterperez@certgames.com</a>
+- 👽 [Portfolio](carterperez.dev)
 <br>
 <img align="center" width=200px alt="Unicorn" src="https://media.tenor.com/XP4tw9P1yFoAAAAM/dedsec.gif"/>
 
