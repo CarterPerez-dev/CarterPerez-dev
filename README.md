@@ -60,7 +60,7 @@
 
 <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 35> ***About me***
 
- I am expanding my knowledge in both back-end and front-end development. I solo developed [CertGames](Certgames.com) and am currently working on expanding Certgames and as a side project I'm working on building the fastest backend framework built with rust:  [Angelax](https://github.com/CarterPerez-dev/Angela)
+ I am expanding my knowledge in both back-end and front-end development. I solo developed [CertGames](Certgames.com) and am currently working on expanding Certgames and as a side project I'm working on building a unified flask decorator package to handle websockets, auth, pydantic response and request schemas, audit logging, and much more. [Flask-Unified](https://github.com/CarterPerez-dev/flask-unified)
 - 🧙‍♂️ I’m currently learning ...
   - *Kubernetes*
   - *SolidJS*
