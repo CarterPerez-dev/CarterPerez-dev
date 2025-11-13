@@ -60,10 +60,11 @@
 
 <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 35> ***About me***
 
- I am expanding my knowledge in both back-end and front-end development. I solo developed [CertGames](Certgames.com) which I'm always working to expand. As a side project, I'm working on building a unified flask decorator package to handle websockets, auth, pydantic response and request schemas, audit logging, and much more. [Flask-Unified](https://github.com/CarterPerez-dev/flask-unified)
+I am expanding my knowledge in both back end and front end development. I solo developed [CertGames](Certgames.com) which I'm always working to expand. As a side project, I'm working on building a Haskell reverse proxy.
+
 - 🧙‍♂️ I’m currently learning ...
   - *Kubernetes*
-  - *SolidJS*
+  - *Life*
 - 👻 I’m ambitious with new things I do..
 - 🫡 Feel free to ask me anything! I’m motivated to help others.
 - 😎 Reach out to me at: <a href="carterperez@certgames.com">Carterperez@certgames.com</a>
