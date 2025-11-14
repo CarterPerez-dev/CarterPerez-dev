@@ -83,7 +83,7 @@ I am expanding my knowledge in both back end and front end development. I solo d
 
 <!-- Github Stats -->
 <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> ***Github Stats***
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=CarterPerez-dev)](https://github.com/CarterPerez-dev/github-readme-stats)">
 <br>
 <p align="center">
 <table align="center">
