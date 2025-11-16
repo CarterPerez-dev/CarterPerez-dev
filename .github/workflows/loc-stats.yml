@@ -20,7 +20,9 @@ jobs:
 
       - name: Install Tokei
         run: |
-          wget -qO- https://github.com/XAMPPRocky/tokei/releases/download/v13.0.0-alpha.5/tokei-x86_64-unknown-linux-musl.tar.gz | tar xz
+          TOKEI_VERSION="12.1.2"
+          curl -L "https://github.com/XAMPPRocky/tokei/releases/download/v${TOKEI_VERSION}/tokei-x86_64-unknown-linux-gnu.tar.gz" -o tokei.tar.gz
+          tar xzf tokei.tar.gz
           sudo mv tokei /usr/local/bin/
           tokei --version
 
