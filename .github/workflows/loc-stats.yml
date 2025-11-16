@@ -48,7 +48,7 @@ jobs:
       - name: Update README with SVG
         run: |
           if grep -q "<!-- LOC-STATS:START -->" README.md; then
-            sed -i '/<!-- LOC-STATS:START -->/,/<!-- LOC-STATS:END -->/c\<!-- LOC-STATS:START -->\n![LOC Stats](./loc-stats.svg)\n<!-- LOC-STATS:END -->' README.md
+            sed -i '/<!-- LOC-STATS:START -->/,/<!-- LOC-STATS:END -->/c\<!-- LOC-STATS:START -->\n<img src="./loc-stats.svg" alt="LOC Stats" width="84%" />\n<!-- LOC-STATS:END -->' README.md
           else
             echo "Warning: LOC-STATS markers not found in README.md"
           fi
