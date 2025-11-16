@@ -1,0 +1,16 @@
+{
+  "repos": [
+    "CarterPerez-dev/stripe-referral",
+    "CarterPerez-dev/Cybersecurity-Projects",
+    "CarterPerez-dev/CertGames-Core",
+    "CarterPerez-dev/kill-pr0cess.inc",
+    "CarterPerez-dev/Carters-Portfolio",
+    "CarterPerez-dev/fastapi-unified",
+    "CarterPerez-dev/vuemantics",
+    "CarterPerez-dev/AngelaMCP",
+    "CarterPerez-dev/CertGames-IOS",
+    "CarterPerez-dev/Flask-Honeypot",
+    "CarterPerez-dev/angela-cli"
+  ],
+  "exclude_languages": ["Markdown", "Text"]
+}

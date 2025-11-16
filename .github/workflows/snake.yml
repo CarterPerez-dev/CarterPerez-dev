@@ -2,25 +2,22 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"    # Runs every day at midnight UTC
-  workflow_dispatch:        # Allows manual triggering
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write           # Grants permission to commit files
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout Repository
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          # Ensure that the GITHUB_TOKEN is used for pushing
-          persist-credentials: true   # This allows the token to be used for git push
+          persist-credentials: true
 
-      # Step 2: Generate Snake
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -30,7 +27,6 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      # Step 3: Commit & Push Snake Files
       - name: Commit & Push Snake Files
         run: |
           # Configure Git

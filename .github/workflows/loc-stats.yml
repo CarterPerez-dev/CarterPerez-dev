@@ -1,0 +1,60 @@
+name: Update LOC Stats
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  update-loc:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Tokei
+        run: |
+          curl -sL https://github.com/XAMPPRocky/tokei/releases/latest/download/tokei-x86_64-unknown-linux-gnu.tar.gz | tar xz
+          sudo mv tokei /usr/local/bin/
+          tokei --version
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Make scripts executable
+        run: chmod +x scripts/count-loc.sh
+
+      - name: Count lines of code
+        run: |
+          cd $GITHUB_WORKSPACE
+          bash scripts/count-loc.sh
+
+      - name: Generate SVG
+        run: python3 scripts/generate-svg.py
+
+      - name: Update README with SVG
+        run: |
+          if grep -q "<!-- LOC-STATS:START -->" README.md; then
+            sed -i '/<!-- LOC-STATS:START -->/,/<!-- LOC-STATS:END -->/c\<!-- LOC-STATS:START -->\n![LOC Stats](./loc-stats.svg)\n<!-- LOC-STATS:END -->' README.md
+          else
+            echo "Warning: LOC-STATS markers not found in README.md"
+          fi
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add loc-stats.svg loc-data.json README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update LOC statistics [skip ci]"
+          git push
