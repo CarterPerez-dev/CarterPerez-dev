@@ -18,14 +18,26 @@ def generate_svg(loc_data):
     total_code = int(loc_data.get('Total', {}).get('code', 0))
     total_lines = int(loc_data.get('Total', {}).get('lines', 0))
 
-    # Calculate total files by summing all language file counts
+    # Count total files - try multiple methods
     total_files = 0
     languages = {}
 
+    # Method 1: Try to get from Total stats (most reliable)
+    if 'Total' in loc_data and isinstance(loc_data['Total'], dict):
+        total_files = int(loc_data['Total'].get('files', 0))
+
+    # Method 2: If that's 0, count from individual language reports
+    if total_files == 0:
+        for lang, stats in loc_data.items():
+            if lang != 'Total' and isinstance(stats, dict):
+                reports = stats.get('reports', [])
+                if reports:
+                    total_files += len(reports)
+
+    # Second pass: aggregate language stats and merge variants
     for lang, stats in loc_data.items():
         if lang != 'Total' and isinstance(stats, dict):
             code_lines = int(stats.get('code', 0))
-            file_count = int(stats.get('files', 0))
 
             if code_lines > 0:
                 # Combine TSX with TypeScript, JSX with JavaScript
@@ -37,11 +49,8 @@ def generate_svg(loc_data):
                 # Merge counts if language already exists
                 if lang in languages:
                     languages[lang]['code'] += code_lines
-                    languages[lang]['files'] += file_count
                 else:
-                    languages[lang] = {'code': code_lines, 'files': file_count}
-
-                total_files += file_count
+                    languages[lang] = {'code': code_lines}
 
     # Sort by code count and get top 6
     top_languages = sorted(languages.items(), key=lambda x: x[1]['code'], reverse=True)[:6]
@@ -67,7 +76,7 @@ def generate_svg(loc_data):
         'Shell': '#89e051',
         'Haskell': '#5e5086',
         'Vue': '#41b883',
-        'JSON': '#292929',
+        'JSON': '#b30000',
     }
 
     svg_width = 800
