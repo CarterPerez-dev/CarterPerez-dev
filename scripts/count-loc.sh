@@ -5,7 +5,6 @@ set -e
 
 echo "Starting LOC counting process..."
 
-# Get absolute paths before changing directories
 WORKSPACE_DIR="$(pwd)"
 REPOS_JSON="$WORKSPACE_DIR/scripts/repos.json"
 OUTPUT_FILE="$WORKSPACE_DIR/loc-data.json"

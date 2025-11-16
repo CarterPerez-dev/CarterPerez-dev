@@ -15,18 +15,36 @@ def generate_svg(loc_data):
     """
     Generate SVG card with LOC stats
     """
-    total_code = loc_data.get('Total', {}).get('code', 0)
-    total_lines = loc_data.get('Total', {}).get('lines', 0)
-    total_files = loc_data.get('Total', {}).get('files', 0)
+    total_code = int(loc_data.get('Total', {}).get('code', 0))
+    total_lines = int(loc_data.get('Total', {}).get('lines', 0))
 
+    # Calculate total files by summing all language file counts
+    total_files = 0
     languages = {}
+
     for lang, stats in loc_data.items():
         if lang != 'Total' and isinstance(stats, dict):
-            code_lines = stats.get('code', 0)
-            if code_lines > 0:
-                languages[lang] = code_lines
+            code_lines = int(stats.get('code', 0))
+            file_count = int(stats.get('files', 0))
 
-    top_languages = sorted(languages.items(), key=lambda x: x[1], reverse=True)[:6]
+            if code_lines > 0:
+                # Combine TSX with TypeScript, JSX with JavaScript
+                if lang == 'TSX':
+                    lang = 'TypeScript'
+                elif lang == 'JSX':
+                    lang = 'JavaScript'
+
+                # Merge counts if language already exists
+                if lang in languages:
+                    languages[lang]['code'] += code_lines
+                    languages[lang]['files'] += file_count
+                else:
+                    languages[lang] = {'code': code_lines, 'files': file_count}
+
+                total_files += file_count
+
+    # Sort by code count and get top 6
+    top_languages = sorted(languages.items(), key=lambda x: x[1]['code'], reverse=True)[:6]
 
     language_colors = {
         'Python': '#3572A5',
@@ -44,9 +62,12 @@ def generate_svg(loc_data):
         'Kotlin': '#F18E33',
         'HTML': '#e34c26',
         'CSS': '#563d7c',
+        'Sass': '#a53b70',
+        'SCSS': '#c6538c',
         'Shell': '#89e051',
         'Haskell': '#5e5086',
         'Vue': '#41b883',
+        'JSON': '#292929',
     }
 
     svg_width = 800
@@ -97,13 +118,14 @@ def generate_svg(loc_data):
 '''
 
     y_offset = 160
-    max_bar_width = svg_width - 300
-    max_code = top_languages[0][1] if top_languages else 1
+    max_bar_width = svg_width - 350
+    max_code = top_languages[0][1]['code'] if top_languages else 1
 
-    for idx, (lang, code) in enumerate(top_languages):
+    for idx, (lang, lang_data) in enumerate(top_languages):
+        code_lines = lang_data['code']
         color = language_colors.get(lang, '#58a6ff')
-        bar_width = (code / max_code) * max_bar_width
-        percentage = (code / total_code) * 100
+        bar_width = (code_lines / max_code) * max_bar_width
+        percentage = (code_lines / total_code) * 100
 
         svg += f'''
   <text x="40" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="#c9d1d9">
@@ -111,8 +133,8 @@ def generate_svg(loc_data):
   </text>
   <rect x="180" y="{y_offset - 12}" width="{max_bar_width}" height="16" fill="#21262d" rx="4"/>
   <rect x="180" y="{y_offset - 12}" width="{bar_width}" height="16" fill="{color}" rx="4" opacity="0.8"/>
-  <text x="{180 + max_bar_width + 15}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#8b949e">
-    {format_number(code)}
+  <text x="{180 + max_bar_width + 20}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#8b949e">
+    {format_number(code_lines)}
   </text>
   <text x="{svg_width - 40}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#8b949e" text-anchor="end">
     {percentage:.1f}%
