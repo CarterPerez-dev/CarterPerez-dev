@@ -56,9 +56,9 @@ def generate_svg(loc_data):
     top_languages = sorted(languages.items(), key=lambda x: x[1]['code'], reverse=True)[:6]
 
     language_colors = {
-        'Python': '#3572A5',
-        'JavaScript': '#f1e05a',
-        'TypeScript': '#2b7489',
+        'Python': '#0080FF',
+        'JavaScript': '#FFD700',
+        'TypeScript': '#00CED1',
         'Rust': '#dea584',
         'Go': '#00ADD8',
         'Java': '#b07219',
@@ -71,7 +71,7 @@ def generate_svg(loc_data):
         'Kotlin': '#F18E33',
         'HTML': '#e34c26',
         'CSS': '#563d7c',
-        'Sass': '#a53b70',
+        'Sass': '#CC0066',
         'SCSS': '#c6538c',
         'Shell': '#89e051',
         'Haskell': '#5e5086',
@@ -84,38 +84,27 @@ def generate_svg(loc_data):
 
     svg = f'''<svg width="{svg_width}" height="{svg_height}" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
-    </linearGradient>
     <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#b30000;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#ff0000;stop-opacity:0.8" />
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <rect width="{svg_width}" height="{svg_height}" fill="url(#bg-gradient)" rx="10"/>
+  <rect width="{svg_width}" height="{svg_height}" fill="#000000" rx="10"/>
 
   <rect x="10" y="10" width="{svg_width - 20}" height="3" fill="url(#accent-gradient)" rx="1.5"/>
 
-  <text x="40" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="32" font-weight="700" fill="#c9d1d9">
+  <text x="40" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="32" font-weight="700" fill="#ffffff">
     {format_number(total_code)}
   </text>
-  <text x="40" y="80" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="14" fill="#8b949e">
+  <text x="40" y="80" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="14" fill="#ffffff">
     LINES OF CODE
   </text>
 
-  <text x="{svg_width - 40}" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="24" font-weight="600" fill="#c9d1d9" text-anchor="end">
+  <text x="{svg_width - 40}" y="55" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="24" font-weight="600" fill="#ffffff" text-anchor="end">
     {format_number(total_files)}
   </text>
-  <text x="{svg_width - 40}" y="75" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#8b949e" text-anchor="end">
+  <text x="{svg_width - 40}" y="75" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#ffffff" text-anchor="end">
     FILES
   </text>
 
@@ -137,22 +126,22 @@ def generate_svg(loc_data):
         percentage = (code_lines / total_code) * 100
 
         svg += f'''
-  <text x="40" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="#c9d1d9">
+  <text x="40" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="13" fill="#ffffff">
     {lang}
   </text>
   <rect x="180" y="{y_offset - 12}" width="{max_bar_width}" height="16" fill="#21262d" rx="4"/>
   <rect x="180" y="{y_offset - 12}" width="{bar_width}" height="16" fill="{color}" rx="4" opacity="0.8"/>
-  <text x="{180 + max_bar_width + 20}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#8b949e">
+  <text x="{180 + max_bar_width + 20}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#ffffff">
     {format_number(code_lines)}
   </text>
-  <text x="{svg_width - 40}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#8b949e" text-anchor="end">
+  <text x="{svg_width - 40}" y="{y_offset}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="12" fill="#ffffff" text-anchor="end">
     {percentage:.1f}%
   </text>
 '''
         y_offset += 25
 
     svg += '''
-  <text x="{}" y="{}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="10" fill="#484f58" text-anchor="end">
+  <text x="{}" y="{}" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="10" fill="#00FFFF" text-anchor="end">
     Updated automatically via GitHub Actions
   </text>
 </svg>'''.format(svg_width - 20, svg_height - 10)
