@@ -21,10 +21,10 @@
 <table align="center">
 <tr>
 <td width="50%" align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=CarterPerez-dev&theme=dark_lover#gh-dark-mode-only&show_icons=true&count_private=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=CarterPerez-dev&theme=dark_lover&show_icons=true&count_private=true" />
 </td>
 <td width="50%" align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=CarterPerez-dev&theme=dark_lover#gh-dark-mode-only&hide_border=false" alt="CarterPerez-dev streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=CarterPerez-dev&theme=dark_lover&hide_border=false" alt="CarterPerez-dev streak" />
 </td>
 </tr>
 </table>
