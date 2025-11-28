@@ -1,7 +1,7 @@
 <!-- Profile Trophies -->
 <div align="center">
-    <a href="https://github.com/ryo-ma/github-profile-trophy">
-        <img src="https://github-profile-trophy.vercel.app/?username=CarterPerez-dev&theme=darkhub&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" width="84%" />
+    <a href="https://github.com/CarterPerez-dev/github-profile-trophy">
+        <img src="https://carterperez-dev-trophies.vercel.app/?username=CarterPerez-dev&theme=darkhub&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" width="84%" />
     </a>
 </div>
 
@@ -21,10 +21,10 @@
 <table align="center">
 <tr>
 <td width="50%" align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=CarterPerez-dev&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=highcontrast&hide_border=true&border_radius=5" />
+    <img src="https://github-readme-stats-eight-sand-93.vercel.app/api?username=CarterPerez-dev&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=highcontrast&hide_border=true&border_radius=5" />
 </td>
 <td width="50%" align="center">
-    <img src="https://streak-stats.demolab.com?user=CarterPerez-dev&theme=highcontrast&hide_border=true&border_radius=5&date_format=j%2Fn%5B%2FY%5D" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats-ten-blush.vercel.app?user=CarterPerez-dev&theme=highcontrast&hide_border=true&border_radius=5&date_format=j%2Fn%5B%2FY%5D" alt="GitHub Streak" />
 </td>
 </tr>
 </table>
@@ -33,7 +33,7 @@
 <br>
 
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=3000&pause=200&color=b30000&width=435&lines=🍄🍄+Carter+Perez;Full-Stack+Dev" alt="Full-Stack Developer🍄🍄"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=3000&pause=200&color=b30000&width=435&lines=🍄+Carter+Perez;Full-Stack+Dev" alt="Full-Stack Developer🍄"/>
 </a>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -115,4 +115,5 @@ I am expanding my knowledge in both back end and front end development. I solo d
 ⠀⠀⠀⢸⠀⠈⠀⠀⡎⡈⣼⣿⣷⠀⠀⢀⡤⠖⠒⠉⠉⠉⠉⠉⠉⠀⠒⠲⢾⢯⣭⣤⠔⢁⠾⠒⠀⠀⠀⠘⣇⠀⠀⢣⡀⠀⡇⠀⠀⠀⠀⠀⠀⢠⡇⠀⠀⣸⣿⣿⣿⣿⣿⣿⣿
 ⡀⠀⠀⡏⠀⡀⠀⢸⠁⣥⣿⠟⠋⢀⠔⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠒⠤⠒⠉⠀⠀⠀⠀⠀⠀⢹⡄⠀⠀⠱⡄⠇⠀⠀⠀⠀⠀⠀⢸⢰⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿
 ```
+
 
