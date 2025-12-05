@@ -58,7 +58,7 @@
 
 <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 35> ***About me***
 
-I am expanding my knowledge in both back end and front end development. I solo developed [CertGames](Certgames.com) which I'm always working to expand. As a side project, I'm working on building a Haskell reverse proxy.
+I am expanding my knowledge in both back end and front end development. I solo developed [CertGames](https://github.com/CarterPerez-dev/CertGames-Core) which I'm always working to expand. As a side project, I'm working on building a Haskell reverse proxy.
 
 - 🧙‍♂️ I’m currently learning ...
   - *Kubernetes*
