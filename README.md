@@ -44,8 +44,8 @@
 
 ### Development Environments:
 ![Vim](https://img.shields.io/badge/Vim-b30000.svg?style=for-the-badge&logo=intellij-idea&logoColor=red) 
-![Kali](https://img.shields.io/badge/Kali-b30000.svg?style=for-the-badge&logo=intellij-idea&logoColor=red)
-![Github](https://img.shields.io/badge/Github-b30000.svg?style=for-the-badge&logo=intellij-idea&logoColor=red)
+![Kali](https://img.shields.io/badge/Debian-b30000.svg?style=for-the-badge&logo=intellij-idea&logoColor=red)
+![Github](https://img.shields.io/badge/Git-b30000.svg?style=for-the-badge&logo=intellij-idea&logoColor=red)
 
 <!-- Social Links -->
 <div align="center">
@@ -80,7 +80,7 @@ I am expanding my knowledge in both back end and front end development. I solo d
 </tr>
 </table>
 
-```bash
+```ruby
 ⠀⠀⠀⠀⠀⠴⣦⣤⡀⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⣨⣥⣄⣀⠀⡁⠀⠀⡀⡠⠀⠀⠀⠂⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢠⣾⣿⣷⣮⣷⡦⠥⠈⡶⠮⣤⣀⡠⠀⡀⣐⣀⡈⠁⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
