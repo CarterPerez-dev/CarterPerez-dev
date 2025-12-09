@@ -25,7 +25,7 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=black&color_dots=#ef4444,#f51b1b,#d60606,#800303,#4d0202
+            dist/ocean.gif?color_snake=black&color_dots=#d6c9c9,#d69c9c,#d60606,#800303,#4d0202
 
       - name: Commit & Push Snake Files
         run: |
