@@ -4,6 +4,7 @@
         <img src="https://github-profile-trophy-git-master-carterperez-devs-projects.vercel.app/?username=CarterPerez-dev&theme=darkhub&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" width="84%" />
     </a>
 </div>
+
 <!-- LOC Stats SVG -->
 <div align="center">
 <!-- LOC-STATS:START -->
