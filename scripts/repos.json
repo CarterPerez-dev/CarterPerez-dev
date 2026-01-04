@@ -10,7 +10,16 @@
     "CarterPerez-dev/AngelaMCP",
     "CarterPerez-dev/CertGames-IOS",
     "CarterPerez-dev/Flask-Honeypot",
-    "CarterPerez-dev/angela-cli"
+    "CarterPerez-dev/angela-cli",
+    "CarterPerez-dev/docksec",
+    "CarterPerez-dev/go-chronometer",        
+    "CarterPerez-dev/video-description-manager",
+    "CarterPerez-dev/holophyly",
+    "CarterPerez-dev/angelamos-operations",  
+    "CarterPerez-dev/fullstack-template",
+    "CarterPerez-dev/my-portfolio",
+    "CarterPerez-dev/fastapi-rc",
+    "CarterPerez-dev/pyproject-setup"    
   ],
   "exclude_languages": ["Markdown", "Text"]
 }
