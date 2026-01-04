@@ -66,7 +66,7 @@ I am expanding my knowledge in both back end and front end development. I solo d
 - 👻 I’m ambitious with new things I do..
 - 🫡 Feel free to ask me anything! I’m motivated to help others.
 - 😎 Reach out to me at: <a href="carterPerez@certgames.com">Carterperez@certgames.com</a>
-- 👽 [Portfolio](carterperez.dev)
+- 👽 [Portfolio](https://carterperez.dev)
 <br>
 
 <table>
