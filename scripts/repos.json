@@ -19,7 +19,8 @@
     "CarterPerez-dev/fullstack-template",
     "CarterPerez-dev/my-portfolio",
     "CarterPerez-dev/fastapi-rc",
-    "CarterPerez-dev/pyproject-setup"    
+    "CarterPerez-dev/pyproject-setup",    
+    "CarterPerez-dev/oneIsNun_"    
   ],
   "exclude_languages": ["Markdown", "Text"]
 }
