@@ -21,7 +21,9 @@
     "CarterPerez-dev/fastapi-rc",
     "CarterPerez-dev/pyproject-setup",
     "CarterPerez-dev/oneIsNun_",
-    "CarterPerez-dev/red-recon"
+    "CarterPerez-dev/red-recon",
+    "CarterPerez-dev/trash-gui",
+    "CarterPerez-dev/CodeWorm"
   ],
-  "exclude_languages": ["Markdown", "Text"]
+  "exclude_languages": ["Markdown", "Text", "json", "yaml"]
 }
