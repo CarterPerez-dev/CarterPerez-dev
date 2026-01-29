@@ -23,7 +23,8 @@
     "CarterPerez-dev/oneIsNun_",
     "CarterPerez-dev/red-recon",
     "CarterPerez-dev/trash-gui",
-    "CarterPerez-dev/CodeWorm"
+    "CarterPerez-dev/CodeWorm",
+    "CarterPerez-dev/angela"
   ],
   "exclude_languages": ["Markdown", "Text", "json", "yaml"]
 }
