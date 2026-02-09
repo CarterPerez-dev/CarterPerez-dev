@@ -24,7 +24,9 @@
     "CarterPerez-dev/red-recon",
     "CarterPerez-dev/trash-gui",
     "CarterPerez-dev/CodeWorm",
-    "CarterPerez-dev/angela"
+    "CarterPerez-dev/angela",
+    "CarterPerez-dev/angelamos-3d",
+    "CarterPerez-dev/AngelaMosLLC"
   ],
   "exclude_languages": ["Markdown", "Text", "json", "yaml"]
 }
