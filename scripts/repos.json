@@ -26,7 +26,9 @@
     "CarterPerez-dev/CodeWorm",
     "CarterPerez-dev/angela",
     "CarterPerez-dev/angelamos-3d",
-    "CarterPerez-dev/AngelaMosLLC"
+    "CarterPerez-dev/AngelaMosLLC",
+    "CarterPerez-dev/yoshi-audit",
+    "CarterPerez-dev/telehook"
   ],
   "exclude_languages": ["Markdown", "Text", "json", "yaml"]
 }
