@@ -28,7 +28,16 @@
     "CarterPerez-dev/angelamos-3d",
     "CarterPerez-dev/AngelaMosLLC",
     "CarterPerez-dev/yoshi-audit",
-    "CarterPerez-dev/telehook"
+    "CarterPerez-dev/telehook",
+    "CarterPerez-dev/fleet",
+    "CarterPerez-dev/telehook",
+    "CarterPerez-dev/fleet",
+    "CarterPerez-dev/jsonpls",
+    "CarterPerez-dev/bomber",
+    "CarterPerez-dev/sentinel",
+    "CarterPerez-dev/vernacopy",  
+    "CarterPerez-dev/rveng",
+    "CarterPerez-dev/portia" 
   ],
   "exclude_languages": ["Markdown", "Text", "json", "yaml"]
 }
