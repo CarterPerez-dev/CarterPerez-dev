@@ -33,14 +33,14 @@
 <br>
 
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=3000&pause=200&color=b30000&width=435&lines=🍄+Carter+Perez;Full-Stack+Dev" alt="Full-Stack Developer🍄"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=3000&pause=200&color=b30000&width=435&lines=+Carter+Perez;Dev" alt="Developer"/>
 </a>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30">  **Skills**
 
 
-[![My Skills](https://skillicons.dev/icons?i=debian,flask,fastapi,react,svelte,solidjs,ts,js,css,scss,tailwind,html,rust,py,java,ruby,c,cs,cpp,go,mongodb,postgres,redis,github,docker,nginx,kubernetes,aws,cloudflare,gcp)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=flask,fastapi,react,ts,scss,rust,py,c,go,postgres,redis,github,docker,nginx,aws)](https://skillicons.dev)
 
 ### Development Environments:
 ![Vim](https://img.shields.io/badge/Vim-b30000.svg?style=for-the-badge&logo=intellij-idea&logoColor=red) 
@@ -58,15 +58,13 @@
 
 <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 35> ***About me***
 
-I am expanding my knowledge in both back end and front end development. I solo developed [CertGames](https://github.com/CarterPerez-dev/CertGames-Core) which I'm always expanding. As a side project, I'm working on building a Haskell reverse proxy.
+I am currently building really cool shit, like whatever I want really. I also solo developed [CertGames](https://github.com/CarterPerez-dev/CertGames-Core) — go check it out *right now*.
 
 - 🧙‍♂️ I’m currently learning ...
-  - *Kubernetes*
-  - *Rust*
-- 👻 I’m ambitious with new things I do..
-- 🫡 Feel free to ask me anything! I’m motivated to help others.
-- 😎 Reach out to me at: <a href="carterPerez@certgames.com">Carterperez@certgames.com</a>
-- 👽 [Portfolio](https://carterperez.dev)
+  - *Zig*
+  - *Cuda*
+- 👻 Reach out to me at: <a href="carterPerez@certgames.com">Carterperez@certgames.com</a>
+- 🧝‍♀️ [Studio](https://angelamos.com)
 <br>
 
 <table>
