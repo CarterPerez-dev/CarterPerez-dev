@@ -37,7 +37,13 @@
     "CarterPerez-dev/sentinel",
     "CarterPerez-dev/vernacopy",  
     "CarterPerez-dev/rveng",
-    "CarterPerez-dev/portia" 
+    "CarterPerez-dev/portia",
+    "CarterPerez-dev/lolcode-fullstack-crud",
+    "CarterPerez-dev/MUHEHEHEHEHEHE",
+    "CarterPerez-dev/exs-cyberjob-scraper",
+    "CarterPerez-dev/erhm",
+    "CarterPerez-dev/002",
+    "CarterPerez-dev/test-audit"      
   ],
   "exclude_languages": ["Markdown", "Text", "json", "yaml"]
 }
