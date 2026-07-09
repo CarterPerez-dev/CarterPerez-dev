@@ -58,7 +58,7 @@
 
 <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 35> ***About me***
 
-I am currently building really cool shit, like whatever I want really. I also solo developed [CertGames](https://github.com/CarterPerez-dev/CertGames-Core) — go check it out *right now*.
+I am currently building really cool shit, like whatever I want really. I also solo developed [CertGames](https://certgames.com) — go check it out *right now*.
 
 - 🧙‍♂️ I’m currently learning ...
   - *Zig*
