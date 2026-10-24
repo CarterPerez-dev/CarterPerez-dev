@@ -58,13 +58,13 @@
 
 <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 35> ***About me***
 
-I am currently building really cool shit, like whatever I want really. I also solo developed [CertGames](https://certgames.com) — go check it out *right now*.
+Everything I do is on my cybersecurity company website → [Angelamos.com](https://angelamos.com).
 
 - 🧙‍♂️ I’m currently learning ...
   - *Zig*
   - *Cuda*
-- 👻 Reach out to me at: <a href="carterPerez@angelamos.com">carterperez@angelamos.com</a>
-- 🧝‍♀️ [Studio](https://angelamos.com)
+- 👻 Reach out to me: <a href="carterPerez@angelamos.com">carterperez@angelamos.com</a>
+- 🧝‍♀️ [Don't click this](https://angelamos.com)
 <br>
 
 <table>
