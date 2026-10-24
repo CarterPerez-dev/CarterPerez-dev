@@ -50,7 +50,7 @@
 <!-- Social Links -->
 <div align="center">
   <a href="mailto:carterperez@angelamos.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=black" /></a>
-  <a href="https://www.linkedin.com/in/carterperez-dev/"><img src="https://img.shields.io/badge/LinkedIn-%2312100E.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=black" /></a>
+  <a href="https://angelamos.com/"><img src="https://img.shields.io/badge/Company-%2312100E.svg?&style=for-the-badge&logoColor=red&color=black" /></a>
  <!-- <a href="https://aal1x-jobhub.github.io/jobhub-landing/"><img src="https://img.shields.io/badge/Website-%23.svg?&style=for-the-badge&logo=www&logoColor=white&color=black" /></a> -->
 </div>
 
