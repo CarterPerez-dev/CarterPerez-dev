@@ -49,7 +49,7 @@
 
 <!-- Social Links -->
 <div align="center">
-  <a href="mailto:carterperez@certgames.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=black" /></a>
+  <a href="mailto:carterperez@angelamos.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=black" /></a>
   <a href="https://www.linkedin.com/in/carterperez-dev/"><img src="https://img.shields.io/badge/LinkedIn-%2312100E.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=black" /></a>
  <!-- <a href="https://aal1x-jobhub.github.io/jobhub-landing/"><img src="https://img.shields.io/badge/Website-%23.svg?&style=for-the-badge&logo=www&logoColor=white&color=black" /></a> -->
 </div>
@@ -63,7 +63,7 @@ I am currently building really cool shit, like whatever I want really. I also so
 - 🧙‍♂️ I’m currently learning ...
   - *Zig*
   - *Cuda*
-- 👻 Reach out to me at: <a href="carterPerez@certgames.com">Carterperez@certgames.com</a>
+- 👻 Reach out to me at: <a href="carterPerez@angelamos.com">carterperez@angelamos.com</a>
 - 🧝‍♀️ [Studio](https://angelamos.com)
 <br>
 
